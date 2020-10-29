@@ -1,9 +1,14 @@
 <html>
   <head>
     <title>Sambo Dambo</title>
+    <script
+      type="module"
+      src="https://cdn.jsdelivr.net/gh/vanillawc/wc-markdown@1/index.js"
+    ></script>
   </head>
   <body>
-    <h1>Sup Dudes</h1>
+    <wc-markdown ># Sup Dudes</wc-markdown>
+    <wc-markdown id="jokes"></wc-markdown>
     <div>
       <img id="awesome" class="possum" />
     </div>
@@ -13,7 +18,7 @@
       }
     </style>
     <script>
-      function getRandomInt(min, max) {
+      function getRADomInt(min, max) {
         min = Math.ceil(min);
         max = Math.floor(max);
         return Math.round(Math.random() * (max - min) + min); //The maximum is exclusive and the minimum is inclusive
@@ -22,9 +27,15 @@
       function swapImage() {
         document
           .getElementById('awesome')
-          .setAttribute('src', `${getRandomInt(1, 7)}.jpg`);
+          .setAttribute('src', `${getRADomInt(1, 7)}.jpg`);
       }
+
+      function swapJoke() {
+        document.getElementById('jokes').setAttribute('src', `${getRADomInt(1, 2)}.md`);
+      }
+
       swapImage();
+      swapJoke();
     </script>
   </body>
 </html>
