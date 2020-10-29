@@ -1,0 +1,30 @@
+<html>
+  <head>
+    <title>Sambo Dambo</title>
+  </head>
+  <body>
+    <h1>Sup Dudes</h1>
+    <div>
+      <img id="awesome" class="possum" />
+    </div>
+    <style>
+      .possum {
+        width: 500px;
+      }
+    </style>
+    <script>
+      function getRandomInt(min, max) {
+        min = Math.ceil(min);
+        max = Math.floor(max);
+        return Math.round(Math.random() * (max - min) + min); //The maximum is exclusive and the minimum is inclusive
+      }
+
+      function swapImage() {
+        document
+          .getElementById('awesome')
+          .setAttribute('src', `${getRandomInt(1, 7)}.jpg`);
+      }
+      swapImage();
+    </script>
+  </body>
+</html>
