@@ -42,6 +42,6 @@ jobs:
           # surge.sh login
           login: samrocksc@gmail.com
           # surge.sh token, generate it with `surge token` command
-          token: 0f4b2fd8cec27135dc83fd09830f434c
+          token: ${{ secrets.SURGE_TOKEN }}
           # your project path
           # project: # optional, default is .
