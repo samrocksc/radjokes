@@ -16,8 +16,10 @@
     ></script>
   </head>
   <body>
-    <wc-markdown># Sup Dudes</wc-markdown>
-    <wc-markdown id="jokes"></wc-markdown>
+    <wc-markdown class="dude"># Sup Dudes</wc-markdown>
+    <div class="jokes">
+      <wc-markdown id="jokes"></wc-markdown>
+    </div>
     <div>
       <img id="awesome" class="possum" />
     </div>
@@ -25,6 +27,7 @@
       .possum {
         width: 500px;
       }
+
       .possum:hover {
         filter: grayscale(1);
         -webkit-transition: filter 0.15s ease-in;
@@ -32,6 +35,29 @@
         -ms-transition: filter 0.15s ease-in;
         -o-transition: filter 0.15s ease-in;
         transition: filter 0.15s ease-in;
+      }
+
+      .jokes:hover {
+        background-image: linear-gradient(
+          to left,
+          violet,
+          indigo,
+          green,
+          blue,
+          yellow,
+          orange,
+          red
+        );
+        -webkit-background-clip: text;
+        -moz-background-clip: text;
+        background-clip: text;
+        color: transparent;
+        font-size: 2em;
+        -webkit-transition: font-size 1s ease-out;
+        -moz-transition: font-size 1s ease-out;
+        -ms-transition: font-size 1s ease-out;
+        -o-transition: font-size 1s ease-out;
+        transition: font-size 1s ease-out;
       }
     </style>
     <script>
