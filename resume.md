@@ -1,14 +1,16 @@
-Sam Clark - Resume
+# Sam Clark - Resume
 -----------------
 Portland, OR
+
+Do you think my resume sucks and have worked with me?  [Submit a PR]()
 
 Summary
 -----
 
-I am an avid fan of taking everything I do seriously.  I am a firm believer that companies should hire managers, not employees.  Leadership is key, and I will always strive to put myself into a leadership position.
+Dedicated to the fine arts of artisinal SQL.
 
 
-Professional Experience  
+Professional Experience
 -----------
 
 
