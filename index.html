@@ -16,16 +16,37 @@
     ></script>
   </head>
   <body>
-    <wc-markdown class="dude"># Sup Dudes</wc-markdown>
-    <div class="jokes">
-      <wc-markdown id="jokes"></wc-markdown>
-    </div>
-    <div>
+    <div class="parent">
+      <wc-markdown class="dude"># Sup Dudes</wc-markdown>
+      <wc-markdown class="jokes" id="jokes"></wc-markdown>
       <img id="awesome" class="possum" />
     </div>
+
     <style>
+      .parent {
+        display: -webkit-flex;
+        display: flex;
+        -webkit-flex-direction: column;
+        flex-direction: column;
+        -webkit-align-items: center;
+        align-items: center;
+      }
+
       .possum {
-        width: 500px;
+        width: 80%;
+        max-width: 500px;
+      }
+
+      @media only screen and (max-width: 360px) {
+        .possum {
+          width: 100%;
+        }
+      }
+
+      @media only screen and (max-width: 1366px) {
+        .possum {
+          width: 80%;
+        }
       }
 
       .possum:hover {
@@ -52,7 +73,7 @@
         -moz-background-clip: text;
         background-clip: text;
         color: transparent;
-        font-size: 2em;
+        font-size: 1.5em;
         -webkit-transition: font-size 1s ease-out;
         -moz-transition: font-size 1s ease-out;
         -ms-transition: font-size 1s ease-out;
