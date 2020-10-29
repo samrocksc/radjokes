@@ -25,6 +25,14 @@
       .possum {
         width: 500px;
       }
+      .possum:hover {
+        filter: grayscale(1);
+        -webkit-transition: filter 0.15s ease-in;
+        -moz-transition: filter 0.15s ease-in;
+        -ms-transition: filter 0.15s ease-in;
+        -o-transition: filter 0.15s ease-in;
+        transition: filter 0.15s ease-in;
+      }
     </style>
     <script>
       function getRADomInt(min, max) {
