@@ -2,6 +2,8 @@ Sam Clark - Resume
 -----------------
 Portland, OR
 
+_Do you think my resume sucks, and have worked with me? [Submit a PR](https://github.com/samrocksc/radjokes/blob/main/resume.md)_
+
 Summary
 -----
 
