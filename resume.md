@@ -11,9 +11,17 @@ I am an avid fan of taking everything I do seriously.  I am a firm believer that
 Professional Experience  
 -----------
 
+
+**Honest Food Company([website](https://honestfoodcompany.de))**
+
+* *Software Engineer* | December 2019 - Present
+    * Project Lead on customer after order feedback
+    * Serverless design and architecture with Google Cloud/Terraform
+    * NodeJS, Typescript heavy codebases
+
 **Sightbox([sightbox](https://sightbox.com))**
 
-* *Software Engineer* | October 2018 - Current
+* *Software Engineer* | October 2018 - December 2019
     * Management of the supply chain infrastructure for contact lense ordering and delivery.
     * Node cluster application management for aggregation of products.
     * AWS Heavy infrastructure and design with Cloudformation and SAM Templating.
