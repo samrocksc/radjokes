@@ -14,16 +14,19 @@
       type="text/javascript"
       src="https://unpkg.com/@webcomponents/webcomponentsjs@2.2.10/custom-elements-es5-adapter.js"
     ></script>
+    <script src="cexample.js" defer></script>
   </head>
   <body>
-    <div class="parent">
+    <div class="owner">
       <wc-markdown class="dude"># Sup Dudes</wc-markdown>
       <wc-markdown class="jokes" id="jokes"></wc-markdown>
       <img id="awesome" class="possum" />
+      <div><a href="resume.html">i have a job</a></div>
+      <div><a href="https://github.com/samrocksc/radjokes">update my site</a></div>
     </div>
 
     <style>
-      .parent {
+      .owner {
         display: -webkit-flex;
         display: flex;
         -webkit-flex-direction: column;
