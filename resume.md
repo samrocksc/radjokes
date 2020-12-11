@@ -1,6 +1,7 @@
 # Sam Clark - Resume
 -----------------
-Portland, OR
+Berlin, DE
+samrocksc at gmail dot com
 
 _Do you think my resume sucks, and have worked with me? [Submit a PR](https://github.com/samrocksc/radjokes/blob/main/resume.md)_
 
