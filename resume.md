@@ -91,10 +91,6 @@ Professional Experience
   * Terminal emulation scripting to assist employees in efficiently fixing issues across different variations of network switches
   * Four years of web-design for Content Management Systems utilizing PHP/MySQL, Perl, Javascript
 
-**United States Army**
-
-* *91B Combat Medic* | April 1999-August 2001
-
     Skillsets
     ---
 * Postgres Database Management
@@ -107,7 +103,7 @@ Professional Experience
 * Javascript - Node.js, React, Flux Methodologies, JQuery, The DOM in general
 
     Qualifications & Education
-    -----------------
+    ---
 
 * Associates Degree, Social Work, 3.85 GPA, Phoenix College, Graduated December, 2012
 * Colorado Fire Camp Attained S-130/S-190 as well as ICS-100 level certifications for wild land firefighting in 2009
