@@ -2,4 +2,6 @@
 
 I got a joke about sausage....it's the wurst
 
-https://randomsam.surge.sh/
+## Sources Cited
+
+- [Using the go runtime with vercel](https://vercel.com/docs/runtimes#official-runtimes/go)
