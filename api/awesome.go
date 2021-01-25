@@ -8,7 +8,7 @@ import (
 )
 
 func Handler(w http.ResponseWriter, r *http.Request) {
-	fmt.Sprintln(randomJoke())
+	fmt.Fprintf(w, randomJoke())
 }
 
 func init() {
