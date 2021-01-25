@@ -84,10 +84,10 @@ Professional Experience
 **Alltel Corporation**
 
 * *Special Project Developer* | August 2000-May 2005
+  * Four years of web-design for Content Management Systems utilizing PHP/MySQL, Perl, Javascript
   * Responsible for integration of web solutions integral to the operation of the business
   * Interfacing with business analysts to create appropriate web solutions to track, find, fix issues across cellular networks
   * Terminal emulation scripting to assist employees in efficiently fixing issues across different variations of network switches
-  * Four years of web-design for Content Management Systems utilizing PHP/MySQL, Perl, Javascript
 
 Volunteer Work
 ---
