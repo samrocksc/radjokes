@@ -8,7 +8,7 @@ _Do you think my resume sucks, and have worked with me? [Submit a PR](https://gi
 Summary
 -----
 
-Dedicated to the fine arts of artisinal SQL.
+Dedicated to the fine arts of artisinal SQL, serverless, supply chain, and horrible hackery.
 
 
 Professional Experience
@@ -17,10 +17,8 @@ Professional Experience
 
 **Honest Food Company([website](https://honestfoodcompany.de))**
 
-* *Software Engineer* | December 2019 - Present
-    * Project Lead on customer after order feedback application
-    * Utilized serverless design and architecture with Google Cloud/Terraform
-    * Coding languagages: NodeJS and Typescript heavy
+* *Software Developer | December 2019 - Present
+    * Coding, TypeScript, SQL the usual webdev stuff...
 
 **Sightbox([sightbox](https://sightbox.com))**
 
@@ -86,13 +84,19 @@ Professional Experience
 **Alltel Corporation**
 
 * *Special Project Developer* | August 2000-May 2005
+  * Four years of web-design for Content Management Systems utilizing PHP/MySQL, Perl, Javascript
   * Responsible for integration of web solutions integral to the operation of the business
   * Interfacing with business analysts to create appropriate web solutions to track, find, fix issues across cellular networks
   * Terminal emulation scripting to assist employees in efficiently fixing issues across different variations of network switches
-  * Four years of web-design for Content Management Systems utilizing PHP/MySQL, Perl, Javascript
 
-    Skillsets
-    ---
+Volunteer Work
+---
+- **Code Lab Mentor** - Berlin Germany(2020)
+- *Heatsync Labs Hackerspace* - Public tour(2011-2018)
+- *Coffee and Code* - Founder/Organizer(2011 - Present)
+
+Skillsets
+---
 * Postgres Database Management
 * AWS DevOps, I have used about 75% of the product suite
 * Docker Configuration and Cluster management
@@ -102,9 +106,8 @@ Professional Experience
 * Databases of almost any SQL origin, levelDB, several flat file systems
 * Javascript - Node.js, React, Flux Methodologies, JQuery, The DOM in general
 
-    Qualifications & Education
-    ---
-
+Qualifications & Education
+---
 * Associates Degree, Social Work, 3.85 GPA, Phoenix College, Graduated December, 2012
 * Colorado Fire Camp Attained S-130/S-190 as well as ICS-100 level certifications for wild land firefighting in 2009
 * Dated Qualifications for United States Forest Service(available upon request)
