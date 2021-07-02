@@ -18,7 +18,11 @@ Professional Experience
 **Honest Food Company([website](https://honestfoodcompany.de))**
 
 * *Software Developer | December 2019 - Present
-    * Coding, TypeScript, SQL the usual webdev stuff...
+    * Common Frontend Frameworks: Typescript/React/Handlebars
+    * Google Cloud/Terraform infrastructure
+    * Management of scaling and processing for millions of pub/sub messages per hour.
+    * Standard data reporting for SAP-based Qualtrics surveys for BI purposes
+    * Integrating microservice architecture with other microservices.
 
 **Sightbox([sightbox](https://sightbox.com))**
 
