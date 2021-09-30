@@ -18,7 +18,10 @@ Professional Experience
 **Honest Food Company(Delivery Hero)([https://honestfoodcompany.de](https://honestfoodcompany.de))**
 
 * *Software Developer | December 2019 - Present
-    * Coding, TypeScript, SQL the usual webdev stuff...
+    * Google Cloud/Terraform infrastructure
+    * Management of scaling and processing for millions of pub/sub messages per hour.
+    * Standard data reporting for SAP-based Qualtrics surveys for BI purposes
+    * Integrating microservice architecture with other microservices.
     * Implemented several fundamental team working processes company wide
       * Team Working Agreements/Coding Standard Agreements
       * Team-wide Retrospectives
