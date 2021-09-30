@@ -15,9 +15,9 @@ Professional Experience
 -----------
 
 
-**Honest Food Company(Delivery Hero)([https://honestfoodcompany.de](https://honestfoodcompany.de))**
+**Honest Food Company(Delivery Hero)([honestfoodcompany](https://honestfoodcompany.de))**
 
-* *Software Developer | December 2019 - Present
+* Senior Software Developer | December 2019 - Present
     * Google Cloud/Terraform infrastructure
     * Management of scaling and processing for millions of pub/sub messages per hour.
     * Standard data reporting for SAP-based Qualtrics surveys for BI purposes
