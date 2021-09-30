@@ -15,7 +15,7 @@ Professional Experience
 -----------
 
 
-**Honest Food Company([website](https://honestfoodcompany.de))**
+**Honest Food Company(Delivery Hero)([https://honestfoodcompany.de](https://honestfoodcompany.de))**
 
 * *Software Developer | December 2019 - Present
     * Coding, TypeScript, SQL the usual webdev stuff...
