@@ -19,6 +19,10 @@ Professional Experience
 
 * *Software Developer | December 2019 - Present
     * Coding, TypeScript, SQL the usual webdev stuff...
+    * Implemented several fundamental team working processes company wide
+      * Team Working Agreements/Coding Standard Agreements
+      * Team-wide Retrospectives
+      * Cross-team tech talk program
 
 **Sightbox([sightbox](https://sightbox.com))**
 
