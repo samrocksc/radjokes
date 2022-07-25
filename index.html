@@ -14,7 +14,6 @@
       type="text/javascript"
       src="https://unpkg.com/@webcomponents/webcomponentsjs@2.2.10/custom-elements-es5-adapter.js"
     ></script>
-    <script src="cexample.js" defer></script>
   </head>
   <body>
     <div class="owner">
@@ -22,7 +21,9 @@
       <wc-markdown class="jokes" id="jokes"></wc-markdown>
       <img id="awesome" class="possum" />
       <div><a href="resume.html">i have a job</a></div>
-      <div><a href="https://github.com/samrocksc/radjokes">update my site</a></div>
+      <div>
+        <a href="https://github.com/samrocksc/radjokes">update my site</a>
+      </div>
     </div>
 
     <style>
@@ -85,24 +86,29 @@
       }
     </style>
     <script>
-      function getRADomInt(min, max) {
+      const getRADomInt = (min, max) => {
         min = Math.ceil(min);
         max = Math.floor(max);
         return Math.round(Math.random() * (max - min) + min); //The maximum is exclusive and the minimum is inclusive
-      }
+      };
 
-      function swapImage() {
+      const swapImage = () =>
         document
           .getElementById('awesome')
           .setAttribute('src', `${getRADomInt(1, 8)}.jpg`);
-      }
 
-      function swapJoke() {
+      const swapJoke = () =>
         document
           .getElementById('jokes')
           .setAttribute('src', `${getRADomInt(1, 8)}.md`);
-      }
 
+      const thing = () => {
+        fetch('https://cowabunga.dev/api/awesome').then(res => {
+          console.log('resilient', res.text())
+        });
+      };
+
+      thing();
       swapImage();
       swapJoke();
     </script>
