@@ -14,10 +14,15 @@ Dedicated to the fine arts of artisinal SQL, serverless, supply chain, and horri
 Professional Experience
 -----------
 
+**MHP(Porsche)**
 
-**Honest Food Company(Delivery Hero)([honestfoodcompany](https://honestfoodcompany.de))**
+* Software Manager | December 2022 - Present 
+  * AWS Serverless Architecture
+  * Facilitate the Tech Talks and other Team Building Talks
 
-* Senior Software Developer | December 2019 - Present
+**Delivery Hero(Honest Food Company)([honestfoodcompany](https://honestfoodcompany.de))**
+
+* Senior Software Developer | December 2019 - September 2022
     * Google Cloud/Terraform infrastructure
     * Management of scaling and processing for millions of pub/sub messages per hour.
     * Standard data reporting for SAP-based Qualtrics surveys for BI purposes
