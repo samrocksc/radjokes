@@ -23,6 +23,7 @@
       <div><a href="resume.html">i have a job</a></div>
       <div>
         <a href="https://github.com/samrocksc/radjokes">update my site</a>
+        <a rel="me" href="https://nerdculture.de/@samrocksc">anti-social</a>
       </div>
     </div>
 
@@ -94,17 +95,17 @@
 
       const swapImage = () =>
         document
-          .getElementById('awesome')
-          .setAttribute('src', `${getRADomInt(1, 8)}.jpg`);
+          .getElementById("awesome")
+          .setAttribute("src", `${getRADomInt(1, 8)}.jpg`);
 
       const swapJoke = () =>
         document
-          .getElementById('jokes')
-          .setAttribute('src', `${getRADomInt(1, 8)}.md`);
+          .getElementById("jokes")
+          .setAttribute("src", `${getRADomInt(1, 8)}.md`);
 
       const thing = () => {
-        fetch('https://cowabunga.dev/api/awesome').then(res => {
-          console.log('resilient', res.text())
+        fetch("https://cowabunga.dev/api/awesome").then((res) => {
+          console.log("resilient", res.text());
         });
       };
 

@@ -16,7 +16,7 @@ Professional Experience
 
 **MHP(Porsche)**
 
-* Software Manager | December 2022 - Present 
+* Software Manager | August 2022 - Present
   * AWS Serverless Architecture
   * Facilitate the Tech Talks and other Team Building Talks
 
