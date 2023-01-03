@@ -17,5 +17,14 @@
   </head>
   <body>
     <wc-markdown src="resume.md"></wc-markdown>
+    <share-to-mastodon
+      message="The Best Resume In History"
+      url="https://cowabunga.dev/resume"
+    >
+      Show me off!
+    </share-to-mastodon>
+    <script type="module">
+      import * as radness from 'https://cdn.jsdelivr.net/npm/@justinribeiro/share-to-mastodon/+esm';
+    </script>
   </body>
 </html>
