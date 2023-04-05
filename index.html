@@ -35,7 +35,12 @@
     <div class="owner">
       <wc-markdown class="dude"># Sup Dudes</wc-markdown>
       <wc-markdown class="jokes" id="jokes"></wc-markdown>
-      <img aria-label="A picture of a possum" onclick="dataLayer.push({'event': 'the-possums-have-clicked'});" id="awesome" class="possum" />
+      <img
+        aria-label="A picture of a possum"
+        onclick="dataLayer.push({'event': 'the-possums-have-clicked'});"
+        id="awesome"
+        class="possum"
+      />
       <div><a href="resume.html">i have a job</a></div>
       <div>
         <a href="https://github.com/samrocksc/radjokes">update my site</a>
@@ -110,6 +115,12 @@
         max = Math.floor(max);
         return Math.round(Math.random() * (max - min) + min); //The maximum is exclusive and the minimum is inclusive
       };
+
+      const button = document.body.querySelector('.possum');
+
+      button.addEventListener('click', () => {
+        gtag('event', 'cool', {});
+      });
 
       const swapImage = () =>
         document
