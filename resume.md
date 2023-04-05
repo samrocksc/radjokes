@@ -14,11 +14,19 @@ Dedicated to the fine arts of artisinal SQL, serverless, supply chain, and horri
 Professional Experience
 -----------
 
+**Enpal**
+
+* Senior Software Engineer | March 2023 - Present
+  * Software Development & Architecture
+  * Node.js, C#, Azure Environment
+
+
 **MHP(Porsche)**
 
-* Software Manager | August 2022 - Present
+* Software Manager | August 2022 - January 2023
   * AWS Serverless Architecture
   * Facilitate the Tech Talks and other Team Building Talks
+  * Ask me how not to develop software
 
 **Delivery Hero(Honest Food Company)([honestfoodcompany](https://honestfoodcompany.de))**
 
