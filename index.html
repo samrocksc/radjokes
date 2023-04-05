@@ -14,6 +14,20 @@
       type="text/javascript"
       src="https://unpkg.com/@webcomponents/webcomponentsjs@2.2.10/custom-elements-es5-adapter.js"
     ></script>
+    <!-- Google tag (gtag.js) -->
+    <script
+      async
+      src="https://www.googletagmanager.com/gtag/js?id=G-R5HH1F5KDM"
+    ></script>
+    <script>
+      window.dataLayer = window.dataLayer || [];
+      function gtag() {
+        dataLayer.push(arguments);
+      }
+      gtag('js', new Date());
+
+      gtag('config', 'G-R5HH1F5KDM');
+    </script>
   </head>
   <body>
     <div class="owner">
@@ -97,17 +111,17 @@
 
       const swapImage = () =>
         document
-          .getElementById("awesome")
-          .setAttribute("src", `${getRADomInt(1, 8)}.jpg`);
+          .getElementById('awesome')
+          .setAttribute('src', `${getRADomInt(1, 8)}.jpg`);
 
       const swapJoke = () =>
         document
-          .getElementById("jokes")
-          .setAttribute("src", `${getRADomInt(1, 8)}.md`);
+          .getElementById('jokes')
+          .setAttribute('src', `${getRADomInt(1, 8)}.md`);
 
       const thing = () => {
-        fetch("https://cowabunga.dev/api/awesome").then((res) => {
-          console.log("resilient", res.text());
+        fetch('https://cowabunga.dev/api/awesome').then((res) => {
+          console.log('resilient', res.text());
         });
       };
 
