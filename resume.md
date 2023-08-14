@@ -18,15 +18,16 @@ Professional Experience
 
 * Senior Software Engineer | March 2023 - Present
   * Software Development & Architecture
-  * Node.js, C#, Azure Environment
+  * Actively assist and promote RFC architecture ranging from trie data structure refactoring to Event-Driven Architecture implementation
+  * Build/Implement REST architecture and create fallback pages for Global Expansion internationalization surveys
+  * Node.js, C#, Azure Environment deployed with Terraform, and GitOps CI/CD using Azure Pipelines
 
 
 **MHP(Porsche)**
 
 * Software Manager | August 2022 - January 2023
-  * AWS Serverless Architecture
+  * AWS Serverless Architecture, Deployments via CDK
   * Facilitate the Tech Talks and other Team Building Talks
-  * Ask me how not to develop software
 
 **Delivery Hero(Honest Food Company)([honestfoodcompany](https://honestfoodcompany.de))**
 
@@ -129,8 +130,4 @@ Skillsets
 Qualifications & Education
 ---
 * Associates Degree, Social Work, 3.85 GPA, Phoenix College, Graduated December, 2012
-* Colorado Fire Camp Attained S-130/S-190 as well as ICS-100 level certifications for wild land firefighting in 2009
-* Dated Qualifications for United States Forest Service(available upon request)
-* Dated Qualifications for United States Military(available upon request)
-* Maricopa County Health Department Food Handler/Food Manager Certifications
 * American Heart CPR
