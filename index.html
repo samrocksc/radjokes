@@ -34,14 +34,14 @@
   <body>
     <div class="owner">
       <wc-markdown class="dude"># Sup Dudes</wc-markdown>
-      <wc-markdown class="jokes" id="jokes"></wc-markdown>
+      <wc-markdown class="jokes" id="jokerville"></wc-markdown>
       <img
         aria-label="A picture of a possum"
         onclick="dataLayer.push({'event': 'the-possums-have-clicked'});"
         id="awesome"
         class="possum"
       />
-      <div><a href="resume.html">i have a job</a></div>
+      <div><a href="resume.html">i sometimes have a job</a></div>
       <div>
         <a href="https://github.com/samrocksc/radjokes">update my site</a>
       </div>
@@ -132,10 +132,15 @@
           .getElementById('jokes')
           .setAttribute('src', `${getRADomInt(1, 8)}.md`);
 
-      const thing = () => {
-        fetch('https://cowabunga.dev/api/awesome').then((res) => {
-          console.log('resilient', res.text());
-        });
+      console.log(`url: ${window.location.protocol}//${window.location.host}/api/awesome`)
+
+      const thing = async () => {
+        const res = await fetch(
+          `${window.location.protocol}//${window.location.host}/api/awesome`
+        )
+        const data = await res.json();
+        console.log('data', data)
+        document.getElementById('jokerville').innerHTML = data.joke;
       };
 
       thing();
