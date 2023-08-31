@@ -127,11 +127,6 @@
           .getElementById('awesome')
           .setAttribute('src', `${getRADomInt(1, 8)}.jpg`);
 
-      const swapJoke = () =>
-        document
-          .getElementById('jokes')
-          .setAttribute('src', `${getRADomInt(1, 8)}.md`);
-
       console.log(`url: ${window.location.protocol}//${window.location.host}/api/awesome`)
 
       const thing = async () => {
@@ -139,7 +134,6 @@
           `${window.location.protocol}//${window.location.host}/api/awesome`
         )
         const data = await res.json();
-        console.log('data', data)
         document.getElementById('jokerville').innerHTML = data.joke;
       };
 
