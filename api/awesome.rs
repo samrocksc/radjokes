@@ -41,6 +41,7 @@ fn get_joke() -> String {
         "<h2>what does a vegetarian zombie eat?  GRAINNSS</h2>",
         "<h2>did you hear the one about the vacuum?  it sucks.</h2>",
         "<h2>I made a pun about wind, but it blows</h2>",
+        "<h2>How do snails get their shells so shiny? _snail polish_</h2>",
         "<h2>Why do the French eat snails? Because they don't like fast food</h2>",
     ];
     return pick_random_string(&list_of_jokes);
