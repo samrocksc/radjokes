@@ -43,6 +43,8 @@ fn get_joke() -> String {
         "<h2>I made a pun about wind, but it blows</h2>",
         "<h2>How do snails get their shells so shiny? _snail polish_</h2>",
         "<h2>Why do the French eat snails? Because they don't like fast food</h2>",
+        "<h2>Why could we never use balloons for currency? They tend to have an inflation problem.</h2>",
+        "<h2>Why could we never use balloons for currency? They tend to have an deflation problem.</h2>",
     ];
     return pick_random_string(&list_of_jokes);
 }
