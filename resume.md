@@ -13,7 +13,7 @@ Dedicated to the fine arts of artisinal SQL, serverless, supply chain, and horri
 
 **Wunderflats**
 
-- Technical Team Lead | October 2023 - Present
+- Technical Team Lead | October 2023 - July 2025
   - Line Management for 5 direct reports and a team of 8 members
   - Implemented features with team to increase company revenue considerably
   - Implemented payment automation systems to help improve the customer Experience
@@ -27,15 +27,9 @@ Dedicated to the fine arts of artisinal SQL, serverless, supply chain, and horri
   - Build/Implement REST architecture and create fallback pages for Global Expansion internationalization surveys
   - Node.js, C#, Azure Environment deployed with Terraform, and GitOps CI/CD using Azure Pipelines
 
-**MHP(Porsche)**
-
-- Software Manager | August 2022 - January 2023
-  - AWS Serverless Architecture, Deployments via CDK
-  - Facilitate the Tech Talks and other Team Building Talks
-
 **Delivery Hero(Honest Food Company)([honestfoodcompany](https://honestfoodcompany.de))**
 
-- Senior Software Developer | December 2019 - September 2022
+- Senior Software Developer | December 2019 - December 2022
   - Google Cloud/Terraform infrastructure
   - Management of scaling and processing for millions of pub/sub messages per hour.
   - Standard data reporting for SAP-based Qualtrics surveys for BI purposes
