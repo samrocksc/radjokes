@@ -1,144 +1,166 @@
-<!DOCTYPE html>
+<!doctype html>
 <html lang="en">
-  <head>
-    <title>localhost:3000</title>
-    <meta http-equiv="content-type" content="text/html; charset=utf-8" />
-    <meta name="viewport" content="width=device-width, initial-scale=1" />
-    <script>
-      window.dataLayer = window.dataLayer || [];
-      function gtag() {
-        dataLayer.push(arguments);
-      }
-      gtag('js', new Date());
+    <head>
+        <title>localhost:3000</title>
+        <meta http-equiv="content-type" content="text/html; charset=utf-8" />
+        <meta name="viewport" content="width=device-width, initial-scale=1" />
+        <script>
+            window.dataLayer = window.dataLayer || [];
+            function gtag() {
+                dataLayer.push(arguments);
+            }
+            gtag("js", new Date());
 
-      gtag('config', 'G-R5HH1F5KDM');
-    </script>
-    <script
-      type="module"
-      src="https://cdn.jsdelivr.net/gh/vanillawc/wc-markdown@1/index.js"
-    ></script>
-    <script
-      type="text/javascript"
-      src="https://unpkg.com/@webcomponents/webcomponentsjs@2.2.10/webcomponents-bundle.js"
-    ></script>
-    <script
-      type="text/javascript"
-      src="https://unpkg.com/@webcomponents/webcomponentsjs@2.2.10/custom-elements-es5-adapter.js"
-    ></script>
-    <!-- Google tag (gtag.js) -->
-    <script
-      async
-      src="https://www.googletagmanager.com/gtag/js?id=G-R5HH1F5KDM"
-    ></script>
-  </head>
-  <body>
-    <div class="owner">
-      <wc-markdown class="dude"># Sup Dudes</wc-markdown>
-      <wc-markdown class="jokes" id="jokerville"></wc-markdown>
-      <img
-        aria-label="A picture of a possum"
-        onclick="dataLayer.push({'event': 'the-possums-have-clicked'});"
-        id="awesome"
-        class="possum"
-      />
-      <div><a href="resume.html">i sometimes have a job</a></div>
-      <div>
-        <a href="https://github.com/samrocksc/radjokes">update my site</a>
-      </div>
-      <div>
-        <a rel="me" href="https://fosstodon.org/@samrocksc">anti-social</a>
-      </div>
-    </div>
+            gtag("config", "G-R5HH1F5KDM");
+        </script>
+        <script
+            type="module"
+            src="https://cdn.jsdelivr.net/gh/vanillawc/wc-markdown@1/index.js"
+        ></script>
+        <script
+            type="text/javascript"
+            src="https://unpkg.com/@webcomponents/webcomponentsjs@2.2.10/webcomponents-bundle.js"
+        ></script>
+        <script
+            type="text/javascript"
+            src="https://unpkg.com/@webcomponents/webcomponentsjs@2.2.10/custom-elements-es5-adapter.js"
+        ></script>
+        <!-- Google tag (gtag.js) -->
+        <script
+            async
+            src="https://www.googletagmanager.com/gtag/js?id=G-R5HH1F5KDM"
+        ></script>
+    </head>
+    <body>
+        <div class="owner">
+            <wc-markdown class="dude"># Sup Dudes</wc-markdown>
+            <wc-markdown class="jokes" id="jokerville"></wc-markdown>
+            <img
+                aria-label="A picture of a possum"
+                onclick="dataLayer.push({'event': 'the-possums-have-clicked'});"
+                id="awesome"
+                class="possum"
+            />
+            <div><a href="resume.html">i sometimes have a job</a></div>
+            <div>
+                <a href="https://github.com/samrocksc/radjokes"
+                    >update my site</a
+                >
+            </div>
+            <div>
+                <a rel="me" href="https://fosstodon.org/@samrocksc"
+                    >anti-social</a
+                >
+            </div>
+        </div>
 
-    <style>
-      .owner {
-        display: -webkit-flex;
-        display: flex;
-        -webkit-flex-direction: column;
-        flex-direction: column;
-        -webkit-align-items: center;
-        align-items: center;
-      }
+        <style>
+            .owner {
+                display: -webkit-flex;
+                display: flex;
+                -webkit-flex-direction: column;
+                flex-direction: column;
+                -webkit-align-items: center;
+                align-items: center;
+            }
 
-      .possum {
-        width: 80%;
-        max-width: 500px;
-      }
+            .possum {
+                width: 80%;
+                max-width: 500px;
+            }
 
-      @media only screen and (max-width: 360px) {
-        .possum {
-          width: 100%;
-        }
-      }
+            @media only screen and (max-width: 360px) {
+                .possum {
+                    width: 100%;
+                }
+            }
 
-      @media only screen and (max-width: 1366px) {
-        .possum {
-          width: 80%;
-        }
-      }
+            @media only screen and (max-width: 1366px) {
+                .possum {
+                    width: 80%;
+                }
+            }
 
-      .possum:hover {
-        filter: grayscale(1);
-        -webkit-transition: filter 0.15s ease-in;
-        -moz-transition: filter 0.15s ease-in;
-        -ms-transition: filter 0.15s ease-in;
-        -o-transition: filter 0.15s ease-in;
-        transition: filter 0.15s ease-in;
-      }
+            .possum:hover {
+                filter: grayscale(1);
+                -webkit-transition: filter 0.15s ease-in;
+                -moz-transition: filter 0.15s ease-in;
+                -ms-transition: filter 0.15s ease-in;
+                -o-transition: filter 0.15s ease-in;
+                transition: filter 0.15s ease-in;
+            }
 
-      .jokes:hover {
-        background-image: linear-gradient(
-          to left,
-          violet,
-          indigo,
-          green,
-          blue,
-          black,
-          orange,
-          red
-        );
-        -webkit-background-clip: text;
-        -moz-background-clip: text;
-        background-clip: text;
-        color: transparent;
-        font-size: 1.5em;
-        -webkit-transition: font-size 1s ease-out;
-        -moz-transition: font-size 1s ease-out;
-        -ms-transition: font-size 1s ease-out;
-        -o-transition: font-size 1s ease-out;
-        transition: font-size 1s ease-out;
-      }
-    </style>
-    <script>
-      const getRADomInt = (min, max) => {
-        min = Math.ceil(min);
-        max = Math.floor(max);
-        return Math.round(Math.random() * (max - min) + min); //The maximum is exclusive and the minimum is inclusive
-      };
+            .jokes:hover {
+                background-image: linear-gradient(
+                    to left,
+                    violet,
+                    indigo,
+                    green,
+                    blue,
+                    black,
+                    orange,
+                    red
+                );
+                -webkit-background-clip: text;
+                -moz-background-clip: text;
+                background-clip: text;
+                color: transparent;
+                font-size: 1.5em;
+                -webkit-transition: font-size 1s ease-out;
+                -moz-transition: font-size 1s ease-out;
+                -ms-transition: font-size 1s ease-out;
+                -o-transition: font-size 1s ease-out;
+                transition: font-size 1s ease-out;
+            }
+        </style>
+        <script>
+            const getRADomInt = (min, max) => {
+                min = Math.ceil(min);
+                max = Math.floor(max);
+                return Math.round(Math.random() * (max - min) + min); //The maximum is exclusive and the minimum is inclusive
+            };
 
-      const button = document.body.querySelector('.possum');
+            const button = document.body.querySelector(".possum");
 
-      button.addEventListener('click', () => {
-        gtag('event', 'cool', {});
-      });
+            button.addEventListener("click", () => {
+                gtag("event", "cool", {});
+            });
 
-      const swapImage = () =>
-        document
-          .getElementById('awesome')
-          .setAttribute('src', `${getRADomInt(1, 8)}.jpg`);
+            const swapImage = () =>
+                document
+                    .getElementById("awesome")
+                    .setAttribute("src", `${getRADomInt(1, 8)}.jpg`);
 
-      console.log(`url: ${window.location.protocol}//${window.location.host}/api/awesome`)
+            console.log(
+                `url: ${window.location.protocol}//${window.location.host}/api/awesome`,
+            );
 
-      const thing = async () => {
-        const res = await fetch(
-          `${window.location.protocol}//${window.location.host}/api/awesome`
-        )
-        const data = await res.json();
-        document.getElementById('jokerville').innerHTML = data.joke;
-      };
+            const jokes = [
+                "<h2>I'm a big fan of whiteboards. I find them quite....re-markable.</h2>",
+                "<h2>I ate a clock yesterday, it was very time-consuming.</h2>",
+                "<h2>How did the picture end up in jail? It was framed!</h2>",
+                "<h2>I got a joke about sausage, it's the <i>wurst</i></h2>",
+                "<h2>I have joke about paper, it's <i>terrible</i></h2>",
+                "<h2>Cactus puns are simply succulent.</h2>",
+                "<h2>What do you call a tall pile of cats?......A <i>meowntain</i></h2>",
+                "<h2>Why couldn't the bicycle stand up?....because it was too tired</h2>",
+                "<h2>What concert costs 45 cents? 50 cent ft. <i>Nickleback</i></h2>",
+                "<h2>What did the buffalo say when his son left? Bison!</h2>",
+                "<h2>What do you call a pig that knows karate?  A porkchop!</h2>",
+                "<h2>what does a vegetarian zombie eat?  GRAINNSS</h2>",
+                "<h2>did you hear the one about the vacuum?  it sucks.</h2>",
+                "<h2>I made a pun about wind, but it blows</h2>",
+                "<h2>How do snails get their shells so shiny? _snail polish_</h2>",
+                "<h2>Why do the French eat snails? Because they don't like fast food</h2>",
+            ];
 
-      thing();
-      swapImage();
-    </script>
-  </body>
+            const thing = () => {
+                const data = jokes[Math.floor(Math.random() * jokes.length)];
+                document.getElementById("jokerville").innerHTML = data;
+            };
+
+            thing();
+            swapImage();
+        </script>
+    </body>
 </html>
