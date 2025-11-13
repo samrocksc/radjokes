@@ -14,7 +14,7 @@ Dedicated to the fine arts of artisinal SQL, serverless, supply chain, and horri
 **Wunderflats**
 
 - Technical Team Lead | October 2023 - July 2025
-  - Line Management for 5 direct reports and a team of 8 members
+  - Line Management for 5 direct reports and a team of 8 members in a cross functional team
   - Implemented features with team to increase company revenue considerably
   - Implemented payment automation systems to help improve the customer Experience
   - Worked in the capacity of a Product Manager to help roll out products on time

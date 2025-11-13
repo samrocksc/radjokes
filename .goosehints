@@ -1,0 +1,86 @@
+# .goosehints
+
+## Project Overview
+This is a simple static website with jokes and a blog, deployed on Vercel. The website features:
+- Random joke display with interactive elements
+- Blog functionality with markdown support
+- Responsive design with CSS animations
+
+## Project Structure
+```
+.
+├── index.html           # Main website with jokes
+├── blog/                # Blog section
+│   ├── index.html       # Blog listing page
+│   ├── blog-post.js     # Web component for rendering markdown posts
+│   └── post-1.md        # Sample blog post in markdown
+├── *.jpg                # Joke-related images (1.jpg through 8.jpg)
+├── resume.md            # Resume in markdown format
+├── resume.html          # Resume in HTML format
+├── Makefile             # Development commands
+├── vercel.json          # Vercel deployment configuration
+├── .github/workflows/   # GitHub Actions CI/CD
+└── CNAME                # Custom domain configuration
+```
+
+## Technologies Used
+- HTML5/CSS3/JavaScript for frontend
+- Web Components for blog post rendering
+- Markdown for blog content
+- Vercel for deployment
+- GitHub Actions for CI/CD
+
+## Development
+To start development server:
+```bash
+make dev
+```
+This will start a local server on port 4200.
+
+## Deployment
+The site is deployed on Vercel with the following configuration:
+- Uses vercel-rust runtime for API functions (though no Rust files currently exist)
+- Custom domain configured via CNAME file
+
+## Key Features
+1. **Jokes Page**:
+   - Random joke display on page load
+   - Possum image that changes on each load
+   - Interactive elements with CSS animations
+
+2. **Blog System**:
+   - Custom web component `<blog-post>` for rendering markdown
+   - Markdown parsing with marked.js library
+   - Hash-based routing for blog posts
+
+## Common Tasks
+
+### Adding a New Joke
+1. Edit `index.html`
+2. Add new entry to the `jokes` array in the JavaScript section
+
+### Adding a New Blog Post
+1. Create a new markdown file in the `blog/` directory
+2. Add frontmatter metadata (title, date, author, tags)
+3. Add content in markdown format
+4. Update `blog/index.html` to include a link to the new post
+
+### Adding New Images
+1. Add image files to the root directory
+2. Update the `swapImage()` function in `index.html` to include the new image in the rotation
+
+### Modifying Styles
+1. Edit CSS styles in the `<style>` section of the relevant HTML file
+2. For blog styles, modify the CSS in `blog/index.html` or `blog/blog-post.js`
+
+## Known Issues/Technical Debt
+- The project has a Rust runtime configured in `vercel.json` but no Rust files exist
+- There's a shell script (`blah.sh`) with API keys that should be removed or secured
+- Resume is duplicated in both markdown and HTML formats
+
+## Future Improvements
+- Add actual API functionality with Rust backend
+- Implement proper image loading for the jokes section
+- Add more blog posts and improve blog navigation
+- Implement proper SEO tags
+- Add analytics or monitoring
