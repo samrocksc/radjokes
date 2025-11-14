@@ -1,14 +1,31 @@
-// blog-post.js
+/**
+ * BlogPost Web Component
+ * 
+ * A custom element that fetches and renders markdown blog posts with frontmatter support.
+ * 
+ * Usage:
+ * <blog-post src="path/to/post.md"></blog-post>
+ */
 class BlogPost extends HTMLElement {
   constructor() {
     super();
     this.attachShadow({ mode: "open" });
   }
 
+  /**
+   * Lifecycle method called when the element is added to the document
+   * Initiates the process of loading and rendering the blog post
+   */
   connectedCallback() {
     this.loadAndRenderPost();
   }
 
+  /**
+   * Loads and renders the blog post content
+   * 
+   * @async
+   * @returns {Promise<void>}
+   */
   async loadAndRenderPost() {
     // Get the source file from the src attribute
     const src = this.getAttribute("src");
@@ -39,6 +56,12 @@ class BlogPost extends HTMLElement {
     }
   }
 
+  /**
+   * Parses frontmatter from markdown content
+   * 
+   * @param {string} markdown - The raw markdown content with frontmatter
+   * @returns {Object} Object containing frontmatter metadata and content
+   */
   parseFrontmatter(markdown) {
     // Simple frontmatter parser
     const frontmatterRegex = /^---\s*\n([\s\S]*?)\n---\s*\n([\s\S]*)$/;
@@ -83,6 +106,14 @@ class BlogPost extends HTMLElement {
     return { frontmatter: {}, content: markdown };
   }
 
+  /**
+   * Renders the blog post with parsed frontmatter and content
+   * 
+   * @async
+   * @param {Object} frontmatter - The parsed frontmatter metadata
+   * @param {string} content - The markdown content to render
+   * @returns {Promise<void>}
+   */
   async renderPost(frontmatter, content) {
     // Load marked from jsDelivr
     await this.loadMarked();
@@ -175,6 +206,11 @@ class BlogPost extends HTMLElement {
     });
   }
 
+  /**
+   * Renders an error message in the component
+   * 
+   * @param {string} message - The error message to display
+   */
   renderError(message) {
     this.shadowRoot.innerHTML = `
       <div style="color: red; padding: 20px; font-family: Arial, sans-serif;">
@@ -183,6 +219,11 @@ class BlogPost extends HTMLElement {
     `;
   }
 
+  /**
+   * Loads the marked library for markdown parsing
+   * 
+   * @returns {Promise<void>}
+   */
   loadMarked() {
     return new Promise((resolve) => {
       // Check if marked is already loaded
@@ -219,6 +260,12 @@ class BlogPost extends HTMLElement {
     });
   }
 
+  /**
+   * Converts basic markdown to HTML as a fallback
+   * 
+   * @param {string} markdown - The markdown content to convert
+   * @returns {string} The converted HTML content
+   */
   basicMarkdownToHTML(markdown) {
     // Basic markdown to HTML conversion as fallback
     let html = markdown;

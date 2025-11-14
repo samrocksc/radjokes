@@ -6,6 +6,41 @@ This is a simple static website with jokes and a blog, deployed on Vercel. The w
 - Blog functionality with markdown support
 - Responsive design with CSS animations
 
+## Code Quality & Maintenance
+
+### JavaScript Documentation
+All JavaScript files use JSDoc comments for better code documentation:
+- Classes have `@class` or module-level documentation
+- Methods have `@function` documentation with parameters and return values
+- Parameters are documented with `@param {type} name - description`
+- Return values are documented with `@returns {type} description`
+- Async functions are marked with `@async`
+
+### Code Cleaning Process
+When asked to clean or improve the code:
+1. Convert inline comments to proper JSDoc format
+2. Ensure all functions have documentation explaining their purpose
+3. Document all parameters and return values
+4. Add module-level documentation for files
+5. Use consistent formatting and indentation
+6. Remove any unused or dead code
+
+### Example JSDoc Format
+```javascript
+/**
+ * Brief description of the function
+ * 
+ * More detailed description if needed
+ * 
+ * @param {string} param1 - Description of param1
+ * @param {number} param2 - Description of param2
+ * @returns {boolean} Description of return value
+ */
+function exampleFunction(param1, param2) {
+  // Implementation
+}
+```
+
 ## Project Structure
 ```
 .
@@ -13,7 +48,10 @@ This is a simple static website with jokes and a blog, deployed on Vercel. The w
 ├── blog/                # Blog section
 │   ├── index.html       # Blog listing page
 │   ├── blog-post.js     # Web component for rendering markdown posts
-│   └── post-1.md        # Sample blog post in markdown
+│   ├── fetch-entries.js # Script to dynamically fetch and list blog posts
+│   └── entries/         # Blog posts directory
+│       ├── post-1.md    # First sample blog post in markdown
+│       └── blog-2.md    # Second sample blog post in markdown
 ├── *.jpg                # Joke-related images (1.jpg through 8.jpg)
 ├── resume.md            # Resume in markdown format
 ├── resume.html          # Resume in HTML format
@@ -50,8 +88,10 @@ The site is deployed on Vercel with the following configuration:
 
 2. **Blog System**:
    - Custom web component `<blog-post>` for rendering markdown
-   - Markdown parsing with marked.js library
-   - Hash-based routing for blog posts
+   - Dynamic fetching of blog posts from the entries directory
+   - Automatic parsing of frontmatter metadata (title, date, author, tags)
+   - Expandable post listings with summaries
+   - Sortable by date (newest first)
 
 ## Common Tasks
 
@@ -60,10 +100,10 @@ The site is deployed on Vercel with the following configuration:
 2. Add new entry to the `jokes` array in the JavaScript section
 
 ### Adding a New Blog Post
-1. Create a new markdown file in the `blog/` directory
+1. Create a new markdown file in the `blog/entries/` directory
 2. Add frontmatter metadata (title, date, author, tags)
 3. Add content in markdown format
-4. Update `blog/index.html` to include a link to the new post
+4. The post will automatically appear in the blog listing (no manual registration needed)
 
 ### Adding New Images
 1. Add image files to the root directory
@@ -73,14 +113,21 @@ The site is deployed on Vercel with the following configuration:
 1. Edit CSS styles in the `<style>` section of the relevant HTML file
 2. For blog styles, modify the CSS in `blog/index.html` or `blog/blog-post.js`
 
+### Updating Blog Post Fetching
+1. The `fetch-entries.js` file automatically scans the `entries` directory
+2. Add new markdown files to `blog/entries/` and they'll be included automatically
+3. The system parses frontmatter and generates summaries automatically
+
 ## Known Issues/Technical Debt
 - The project has a Rust runtime configured in `vercel.json` but no Rust files exist
 - There's a shell script (`blah.sh`) with API keys that should be removed or secured
 - Resume is duplicated in both markdown and HTML formats
+- Blog post listing requires manual updates to the file list in `fetch-entries.js` for new posts (could be improved with a build step or backend)
 
 ## Future Improvements
-- Add actual API functionality with Rust backend
+- Add actual API functionality with Rust backend to dynamically scan the entries directory
 - Implement proper image loading for the jokes section
 - Add more blog posts and improve blog navigation
 - Implement proper SEO tags
 - Add analytics or monitoring
+- Create a build script that automatically generates the blog post list
