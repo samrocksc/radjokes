@@ -5,43 +5,64 @@
  *
  * @async
  */
+let isFetching = false;
 async function fetchAndListEntries() {
+  // Prevent multiple simultaneous calls
+  if (isFetching) {
+    console.log('fetchAndListEntries already running, skipping duplicate call');
+    return;
+  }
+
+  isFetching = true;
+  console.log('fetchAndListEntries started');
   const postsList = document.getElementById('posts-list');
 
   if (!postsList) {
     console.error('Posts list container not found');
+    isFetching = false;
     return;
   }
 
   try {
-    // First try to fetch the generated list
-    const response = await fetch('/blog/entries/list.json');
-    console.log('response', response)
+    console.log('Fetching list.json...');
+    // First try to fetch the generated list with cache busting
+    const response = await fetch('/blog/entries/list.json?' + new Date().getTime());
+    console.log('list.json response:', response);
 
     if (!response.ok) {
+      console.error('Failed to fetch list.json, status:', response.status);
       throw new Error('Failed to fetch list.json');
     }
 
     const data = await response.json();
+    console.log('list.json data:', data);
     const files = data.files || [];
+    console.log('Files from list.json:', files);
+
 
     if (files.length === 0) {
       postsList.innerHTML = '<p>No blog posts found.</p>';
+      isFetching = false;
       return;
     }
+
+    console.log('Files to process:', files);
 
     // Parse all posts to extract metadata
     const posts = await Promise.all(files.map(async (file) => {
       try {
         // Extract post name from file path
         const postName = file.replace('blog/entries/', '').replace('.md', '');
-        const postResponse = await fetch(`/blog/entries/${postName}.md`);
+        console.log(`Fetching post: ${postName}`);
+        const postResponse = await fetch(`/blog/entries/${postName}.md?` + new Date().getTime());
         if (!postResponse.ok) {
+          console.error(`Failed to fetch ${postName}, status: ${postResponse.status}`);
           return null;
         }
 
         const content = await postResponse.text();
         const { metadata } = parseMarkdown(content);
+        console.log(`Parsed metadata for ${postName}:`, metadata);
 
         return {
           name: postName,
@@ -55,15 +76,26 @@ async function fetchAndListEntries() {
         return null;
       }
     }));
+    console.log('Promise.all completed, posts:', posts);
 
     // Filter out failed requests and sort by date (newest first)
+    console.log('Posts before filtering:', posts);
     const validPosts = posts
-      .filter(post => post !== null)
-      .sort((a, b) => new Date(b.date) - new Date(a.date));
+      .filter(post => {
+        const isValid = post !== null;
+        console.log('Filtering post:', post, 'isValid:', isValid);
+        return isValid;
+      })
+      .sort((a, b) => {
+        console.log(`Comparing dates: ${a.date} (${new Date(a.date)}) vs ${b.date} (${new Date(b.date)})`);
+        return new Date(b.date) - new Date(a.date);
+      });
+    console.log('Valid posts after filtering and sorting:', validPosts);
 
     // Display posts
     if (validPosts.length === 0) {
       postsList.innerHTML = '<p>No blog posts found.</p>';
+      isFetching = false;
       return;
     }
 
@@ -75,10 +107,19 @@ async function fetchAndListEntries() {
       </div>
     `).join('');
 
-    postsList.innerHTML = postsHtml;
+    console.log('Generated HTML:', postsHtml);
+    // Check if postsList still exists before updating
+    if (document.getElementById('posts-list')) {
+        postsList.innerHTML = postsHtml;
+    } else {
+        console.error('Posts list container disappeared during fetch');
+    }
   } catch (error) {
     console.error('Error fetching blog entries:', error);
     postsList.innerHTML = '<p>Error loading blog posts.</p>';
+  } finally {
+    isFetching = false;
+    console.log('fetchAndListEntries completed');
   }
 }
 
@@ -131,4 +172,4 @@ function parseMarkdown(content) {
 }
 
 // Run when the page loads
-document.addEventListener('DOMContentLoaded', fetchAndListEntries);
+// document.addEventListener('DOMContentLoaded', fetchAndListEntries);

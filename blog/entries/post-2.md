@@ -1,11 +1,11 @@
 ---
-title: "Imade something stupid to help with interviews"
+title: "I made something stupid to help with interviews"
 date: "2025-11-13"
-author: "Lord Samtias"
+author: "Sammy C."
 tags: ["introduction", "second-post"]
 ---
 
-# Hello heathens
+# I made a something stupid to help with interviewing
 
 I’ve recently returned to interviewing and quickly realized that my naturally animated speaking style can be more distracting than engaging on calls. Over the past few weeks I’ve focused on moderating my tone and listening to my own recordings.
 
