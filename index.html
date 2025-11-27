@@ -30,6 +30,7 @@
       async
       src="https://www.googletagmanager.com/gtag/js?id=G-R5HH1F5KDM"
     ></script>
+    <link rel="stylesheet" href="styles.css" />
   </head>
   <body>
     <div class="owner">
@@ -51,65 +52,6 @@
       </div>
     </div>
 
-    <style>
-      .owner {
-        display: -webkit-flex;
-        display: flex;
-        -webkit-flex-direction: column;
-        flex-direction: column;
-        -webkit-align-items: center;
-        align-items: center;
-      }
-
-      .possum {
-        width: 80%;
-        max-width: 500px;
-      }
-
-      @media only screen and (max-width: 360px) {
-        .possum {
-          width: 100%;
-        }
-      }
-
-      @media only screen and (max-width: 1366px) {
-        .possum {
-          width: 80%;
-        }
-      }
-
-      .possum:hover {
-        filter: grayscale(1);
-        -webkit-transition: filter 0.15s ease-in;
-        -moz-transition: filter 0.15s ease-in;
-        -ms-transition: filter 0.15s ease-in;
-        -o-transition: filter 0.15s ease-in;
-        transition: filter 0.15s ease-in;
-      }
-
-      .jokes:hover {
-        background-image: linear-gradient(
-          to left,
-          violet,
-          indigo,
-          green,
-          blue,
-          black,
-          orange,
-          red
-        );
-        -webkit-background-clip: text;
-        -moz-background-clip: text;
-        background-clip: text;
-        color: transparent;
-        font-size: 1.5em;
-        -webkit-transition: font-size 1s ease-out;
-        -moz-transition: font-size 1s ease-out;
-        -ms-transition: font-size 1s ease-out;
-        -o-transition: font-size 1s ease-out;
-        transition: font-size 1s ease-out;
-      }
-    </style>
     <script>
       const getRADomInt = (min, max) => {
         min = Math.ceil(min);
@@ -127,10 +69,6 @@
         document
           .getElementById("awesome")
           .setAttribute("src", `${getRADomInt(1, 8)}.jpg`);
-
-      console.log(
-        `url: ${window.location.protocol}//${window.location.host}/api/awesome`,
-      );
 
       const jokes = [
         "<h2>I'm a big fan of whiteboards. I find them quite....re-markable.</h2>",

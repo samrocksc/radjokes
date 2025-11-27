@@ -1,0 +1,12 @@
+# Configuration file for Cloudflare Pages
+
+name = "radjokes"
+compatibility_date = "2025-11-26"
+
+[build]
+command = ""
+
+[dev]
+# Defines the port used when running 'wrangler pages dev'.
+port = 8787
+ip = "127.0.0.1"

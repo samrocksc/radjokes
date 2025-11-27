@@ -103,7 +103,8 @@ The site is deployed on Vercel with the following configuration:
 1. Create a new markdown file in the `blog/entries/` directory
 2. Add frontmatter metadata (title, date, author, tags)
 3. Add content in markdown format
-4. The post will automatically appear in the blog listing (no manual registration needed)
+4. Run `make build` or `./update-blog-list.sh` to update the blog entries list
+5. The post will automatically appear in the blog listing
 
 ### Adding New Images
 1. Add image files to the root directory
