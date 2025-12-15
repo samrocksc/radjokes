@@ -9,6 +9,10 @@ module.exports = function(eleventyConfig) {
   
   // Add a date filter
   eleventyConfig.addFilter("date", function(value) {
+    // If value is a string, convert it to a Date object
+    if (typeof value === 'string') {
+      value = new Date(value);
+    }
     return value.toLocaleDateString('en-US', {
       year: 'numeric',
       month: 'long',
