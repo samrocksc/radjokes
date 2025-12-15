@@ -1,3 +1,15 @@
+/* Base styles with retro fonts */
+body {
+  font-family: 'IBM Plex Mono', monospace;
+  line-height: 1.6;
+  color: #000000;
+}
+
+h1, h2, h3, h4, h5, h6 {
+  font-family: 'Space Mono', monospace;
+  font-weight: 700;
+}
+
 .container {
   width: 60%;
   margin: 0 20%;
