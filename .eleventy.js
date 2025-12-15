@@ -16,6 +16,11 @@ module.exports = function(eleventyConfig) {
     });
   });
   
+  // Add a filter to remove "blog" tag
+  eleventyConfig.addFilter("removeBlogTag", function(tags) {
+    return tags.filter(tag => tag !== "blog");
+  });
+  
   // Configure input and output directories
   return {
     dir: {
@@ -25,7 +30,7 @@ module.exports = function(eleventyConfig) {
       layouts: "_layouts",
       data: "_data"
     },
-    templateFormats: ["html", "md", "jpg", "css", "js"],
+    templateFormats: ["html", "md", "njk", "jpg", "css", "js"],
     htmlTemplateEngine: "njk",
     markdownTemplateEngine: "njk"
   };
