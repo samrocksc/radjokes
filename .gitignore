@@ -2,3 +2,6 @@
 api/target
 target/
 .wrangler/
+_site/
+node_modules/
+
