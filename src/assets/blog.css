@@ -99,63 +99,36 @@ code[class*="language-"] {
   padding: 0;
 }
 
+@media only screen and (max-width: 768px) {
+  .blog-list {
+    padding: 0;
+  }
+}
+
 .blog-post-item {
   margin-bottom: 30px;
   padding-bottom: 20px;
   border-bottom: 1px dashed #000000;
 }
 
+@media only screen and (max-width: 768px) {
+  .blog-post-item {
+    margin-bottom: 30px;
+    padding-bottom: 20px;
+    border-bottom: 1px dashed #000000;
+    margin-left: 0;
+    margin-right: 0;
+    padding-left: 0;
+    padding-right: 0;
+  }
+}
+
 .blog-post-item:last-child {
   border-bottom: none;
 }
 
-.blog-post-item h2 a {
-  color: #000000;
-  text-decoration: none;
-  font-size: 1.3em;
-  font-weight: bold;
-  transition: all 0.3s ease;
-}
-
-.blog-post-item h2 a:hover {
-  color: #000000;
-  text-decoration: none;
-  font-size: 1.4em;
-}
-
-.post-description {
-  font-size: 1.1em;
-  margin: 10px 0;
-}
-
-.post-meta {
-  display: flex;
-  justify-content: space-between;
-  align-items: center;
-  flex-wrap: wrap;
-  font-size: 0.9em;
-  color: #666666;
-  gap: 10px;
-}
-
-.post-date {
-  font-style: italic;
-}
-
-.post-tags {
-  display: flex;
-  gap: 8px;
-}
-
-.tag {
-  background-color: #000000;
-  color: #ffffff;
-  padding: 4px 8px;
-  font-size: 0.8em;
-  text-transform: uppercase;
-  letter-spacing: 1px;
-}
-
-.tag:hover {
-  background-color: #333333;
+@media only screen and (max-width: 768px) {
+  .blog-post-item:last-child {
+    border-bottom: none;
+  }
 }
