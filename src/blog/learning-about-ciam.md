@@ -1,15 +1,32 @@
 ---
-title: "Learning about CIAM & A Lesson in Specialization"
-date: "2025-11-12"
+title: "Learning about CIAM: and why specialization matters"
+date: "2025-12-20"
 author: "Sammy C."
-description: "Becoming the specialist you were born to be"
+description: "If you think about it.....robots aren't the best option for everything"
 tags:
-  - specialization
-  - craftsmanship
+  - blog
+  - specializations
   - security
 layout: layout.njk
 ---
 
+<div class="blog-post-header">
+  <h1 class="blog-post-title">{{ title }}</h1>
+  <div class="blog-post-meta">
+    <span class="blog-post-date">Published on {{ date | date }}</span>
+    <span class="blog-post-author">{{ author }}</span>
+    {% set filteredTags = tags | removeBlogTag %}
+    {% if filteredTags.length > 0 %}
+    <div class="blog-post-tags">
+      {% for tag in filteredTags %}
+        <span class="blog-post-tag">{{ tag }}</span>
+      {% endfor %}
+    </div>
+    {% endif %}
+  </div>
+</div>
+
+<div class="blog-content">
 I want to preface this post by saying I self-identify as a jack of all trades, master of none. I've been writing code for fun, or for profit for almost 30 years at this point. I've always prided myself on being able to know a little bit about everything. With the advent of LLM's though I think the ability to be a jack of all trades is actually implicit to having a web browser.....so with that I'm beginning to employee different specializations in our field.
 
 Specialization is going to be crucial to our future as software engineers. It's pretty easy to assume that in the future somewhat mundane tasks like setting up routes, or simple three tier architectures will probably be pretty homogenous. Recently, I've learned about the field of **CIAM**. It stands for Customer Identity and Access Management. Which ultimately. This a fancy way of saying "how do we manage our customers' identities and access to our services".
