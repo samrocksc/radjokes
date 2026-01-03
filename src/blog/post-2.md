@@ -7,26 +7,9 @@ tags:
   - blog
   - introduction
   - second-post
-layout: layout.njk
+layout: blog-post.njk
 ---
 
-<div class="blog-post-header">
-  <h1 class="blog-post-title">{{ title }}</h1>
-  <div class="blog-post-meta">
-    <span class="blog-post-date">Published on {{ date | date }}</span>
-    <span class="blog-post-author">{{ author }}</span>
-    {% set filteredTags = tags | removeBlogTag %}
-    {% if filteredTags.length > 0 %}
-    <div class="blog-post-tags">
-      {% for tag in filteredTags %}
-        <span class="blog-post-tag">{{ tag }}</span>
-      {% endfor %}
-    </div>
-    {% endif %}
-  </div>
-</div>
-
-<div class="blog-content">
 # I made a something stupid to help with interviewing
 
 I've recently returned to interviewing and quickly realized that my naturally animated speaking style can be more distracting than engaging on calls. Over the past few weeks I've focused on moderating my tone and listening to my own recordings.
