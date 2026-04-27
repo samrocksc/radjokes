@@ -3,6 +3,8 @@ title: Resume
 layout: layout.njk
 ---
 
+<a href="/" class="back-link">← back</a>
+
 # Sam Clark - Resume
 
 Berlin, DE
