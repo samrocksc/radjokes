@@ -35,7 +35,7 @@ Dedicated to the fine arts of artisinal SQL, serverless, supply chain, and horri
 
 **Enpal**
 
-- Senior Software Engineer | March 2023 - October 2023
+- Senior Software Engineer | March 2023 - August 2023
   - Software Development & Architecture
   - Actively assist and promote RFC architecture ranging from trie data structure refactoring to Event-Driven Architecture implementation
   - Build/Implement REST architecture and create fallback pages for Global Expansion internationalization surveys
