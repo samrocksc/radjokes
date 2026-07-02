@@ -4,6 +4,7 @@ date: "2026-07-02"
 author: "Sammy C."
 description: "Demonstrating how OOP state management creates a cognitive tax that increases AI hallucination risk and structural drift."
 tags: 
+  - blog
   - ai-development
   - functional-programming
   - llm
