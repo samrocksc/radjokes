@@ -33,7 +33,7 @@ This website features a dynamic blog system that automatically discovers and dis
 
 ### Development Commands
 
-- `make dev` - Start development server on port 4200
+- `make dev` - Start development server on port 8000
 - `make build` - Generate blog entries list
 - `./update-blog-list.sh` - Update blog entries list (alternative to make build)
 

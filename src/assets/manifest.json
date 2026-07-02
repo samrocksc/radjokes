@@ -1,0 +1,17 @@
+{
+  "name": "radjokes",
+  "short_name": "radjokes",
+  "description": "I got a joke about sausage....it's the wurst",
+  "start_url": "/",
+  "display": "standalone",
+  "background_color": "#ffffff",
+  "theme_color": "#000000",
+  "icons": [
+    {
+      "src": "/assets/favicon.svg",
+      "sizes": "any",
+      "type": "image/svg+xml",
+      "purpose": "any maskable"
+    }
+  ]
+}

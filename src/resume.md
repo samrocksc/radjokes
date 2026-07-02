@@ -14,7 +14,7 @@ _Do you think my resume sucks, and have worked with me? [Submit a PR](https://gi
 
 ## Summary
 
-Dedicated to the fine arts of artisinal SQL, serverless, supply chain, and horrible hackery.
+Dedicated to the fine arts of artisanal SQL, serverless, supply chain, and horrible hackery.
 
 ## Professional Experience
 
@@ -41,7 +41,7 @@ Dedicated to the fine arts of artisinal SQL, serverless, supply chain, and horri
   - Build/Implement REST architecture and create fallback pages for Global Expansion internationalization surveys
   - Node.js, C#, Azure Environment deployed with Terraform, and GitOps CI/CD using Azure Pipelines
 
-**Delivery Hero(Honest Food Company)([honestfoodcompany](https://honestfoodcompany.de))**
+**Delivery Hero / Honest Food Company ([honestfoodcompany.de](https://honestfoodcompany.de))**
 
 - Senior Software Developer | December 2019 - December 2022
   - Google Cloud/Terraform infrastructure
@@ -53,13 +53,13 @@ Dedicated to the fine arts of artisinal SQL, serverless, supply chain, and horri
     - Team-wide Retrospectives
     - Cross-team tech talk program
 
-**Sightbox([sightbox](https://sightbox.com))**
+**Sightbox ([sightbox.com](https://sightbox.com))**
 
 - _Software Engineer_ | October 2018 - December 2019
   - Managed the supply chain infrastructure for contact lense ordering and delivery
   - Node cluster application management for aggregation of products
   - AWS Heavy infrastructure and design with Cloudformation and SAM Templating
-  - Servereless(.com) architecture and management implementation of lambda based API's
+  - Serverless(.com) architecture and management implementation of lambda based API's
   - Stackery based updating of SAM templating files for infrastructure management
 
 **Synapse Studios([synapse studios](https://synapsestudios.com))**
@@ -69,7 +69,7 @@ Dedicated to the fine arts of artisinal SQL, serverless, supply chain, and horri
   - _Fullstack_ development of Node.js applications, utilizing Hapi, React/Redux
   - Docker tooling and template maintenance
 
-**Iced Dev([iceddev](http://iceddev.com))**
+**Iced Dev ([iceddev.com](http://iceddev.com))**
 
 - _Developer_ | August 2015 - February 2018
   - Development of major node.js frontend application stacks

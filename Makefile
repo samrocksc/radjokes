@@ -13,9 +13,9 @@ help:
 # Start development server with Eleventy on port 8080
 .PHONY: dev
 dev:
-	@echo "Starting development server with Eleventy on http://localhost:8080"
+	@echo "Starting development server with Eleventy on http://localhost:8000"
 	@echo "Press Ctrl+C to stop"
-	npx @11ty/eleventy --serve --port 8080
+	npx @11ty/eleventy --serve --port 8000
 
 # Build the site with Eleventy
 .PHONY: build

@@ -1,6 +1,7 @@
 module.exports = function(eleventyConfig) {
   // Pass through static assets
   eleventyConfig.addPassthroughCopy("src/assets/");
+  eleventyConfig.addPassthroughCopy("src/service-worker.js");
   
   // Create a collection for blog posts
   eleventyConfig.addCollection("blogPosts", function(collectionApi) {

@@ -10,8 +10,6 @@ tags:
 layout: blog-post.njk
 ---
 
-# The Developer's Right to Exist
-
 In the software engineering world, there is a quiet, persistent pressure to always be progressing. If you aren't mastering a new framework, chasing a Staff Engineer title, or optimizing every waking hour for growth, the industry narrative suggests you are stagnating.
 
 But there is a difference between stagnation and stability.

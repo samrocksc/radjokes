@@ -1,8 +1,17 @@
 /* Base styles with retro fonts */
+* {
+  box-sizing: border-box;
+}
+
 body {
   font-family: 'IBM Plex Mono', monospace;
   line-height: 1.6;
   color: #000000;
+}
+
+a {
+  color: #000000;
+  text-decoration: underline;
 }
 
 @media only screen and (max-width: 768px) {
@@ -37,11 +46,17 @@ h2 {
 }
 
 @media only screen and (max-width: 768px) {
+  h1 {
+    font-size: 1.8em;
+  }
+  h2 {
+    font-size: 1.4em;
+  }
   .container {
     width: 100%;
     margin: 0;
-    padding: 0;
-    box-shadow: none;
+    padding: 1rem;
+    box-shadow: none !important;
     border: none;
     background-color: transparent;
   }
@@ -97,6 +112,7 @@ h2 {
 
 .post-tags {
   display: flex;
+  flex-wrap: wrap;
   gap: 8px;
 }
 
@@ -123,20 +139,21 @@ h2 {
   align-items: center;
 }
 
+img {
+  max-width: 100%;
+  height: auto;
+}
+
 .possum {
   width: 80%;
   max-width: 500px;
+  display: block;
+  margin: 1rem auto;
 }
 
-@media only screen and (max-width: 360px) {
+@media only screen and (max-width: 768px) {
   .possum {
     width: 100%;
-  }
-}
-
-@media only screen and (max-width: 1366px) {
-  .possum {
-    width: 80%;
   }
 }
 

@@ -12,8 +12,6 @@ tags:
 layout: blog-post.njk
 ---
 
-# Beyond the Session: Understanding Highly Regulated Identity (HRI)
-
 In the world of standard Customer Identity and Access Management (CIAM), we spend a lot of time talking about the "session." We ask, "Is this user logged in?" and "Do they have the right scope?" For most applications, that's enough. But when you move into high-stakes environments, such as critical infrastructure, healthcare, or privileged admin access, the concept of a "session" becomes a liability.
 
 We commit thousands of authenticated transactions over the internet every day. The problem is that most of these transactions rely on a baseline of trust that is simply too broad. We need to ensure that these actions have proper intent and usage, moving the goalposts from "who is this user?" to "what exactly is this user intending to do right now?"

@@ -11,8 +11,6 @@ tags:
 layout: blog-post.njk
 ---
 
-# A Layman's Guide to Binary Search
-
 *Note: This is not a formal academic lesson. I am not a Computer Science graduate, and I didn't learn this from a textbook. I learned it the hard way through a failed interview and a decade plus of professional intuition. This guide is for the practitioners who care more about how a thing works than what it's called.*
 
 Following my last post, I realized that while I finally knew the name of the game, I never actually shared the rules. If you're like me and you've spent years solving problems by intuition rather than by textbook, the term "Binary Search" can feel like a wall. But the logic itself is actually quite simple.

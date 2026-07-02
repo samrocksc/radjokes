@@ -12,8 +12,6 @@ tags:
 layout: blog-post.njk
 ---
 
-# The Binary Search Blindspot
-
 I had spent eleven years getting paid to write code, building supply chains, managing teams, and architecting systems that handled millions of messages. By all objective measures, I was a competent engineer. Then I walked into an interview that reminded me that competence and nomenclature are two very different things.
 
 It was a company I genuinely wanted to work for. The energy was right, the EM liked me, and the code challenge was brilliantly structured as a series of tiers. You started simple, and as you progressed, the constraints tightened. For the first five rounds, I was flying, moving through the logic with a speed that felt like a victory lap.

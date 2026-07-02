@@ -53,6 +53,7 @@ h2 {
 
 .blog-post-tags {
   display: flex;
+  flex-wrap: wrap;
   gap: 8px;
 }
 

@@ -12,8 +12,6 @@ tags:
 layout: blog-post.njk
 ---
 
-# The Predictability Gap: Why Functional-Lite Patterns are the Ultimate Guardrail for LLM Development
-
 I'm not a Cognitive Science nerd....personally, I don't really care much for the usage of coding tools. I view LLMs as basically glorified linters where we can feed specs to it, and it gives us output within the fences we built for it.  The less we fence, the worse it gets.  I personally think understanding the changes an LLM does is the key important factor.  The rate at which bespoke applications are being created means that we have to start gauging _every_ single tool we use for clarity, extensibility, and machine readability.  I think we need to grade software based on its source, to determine if it holds the internal capability.
 
 I've had this idea in my back pocket for a while, and this is going to be one of just a few of my thoughts on how to improve this.

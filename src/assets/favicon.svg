@@ -1,0 +1,13 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 32 32" width="100%" height="100%">
+  <!-- Left Testicle -->
+  <circle cx="11" cy="22" r="5" fill="#000000" />
+
+  <!-- Right Testicle -->
+  <circle cx="21" cy="22" r="5" fill="#000000" />
+
+  <!-- Shaft -->
+  <rect x="12" y="7" width="8" height="13" fill="#000000" />
+
+  <!-- Glans / Tip -->
+  <path d="M 12 7 C 12 3, 20 3, 20 7 Z" fill="#000000" />
+</svg>

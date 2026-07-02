@@ -3,18 +3,13 @@ document.addEventListener('DOMContentLoaded', function() {
   
   // Check if we're on a mobile device
   const isMobile = window.innerWidth <= 768;
-  
-  // Set initial shadow or border based on device
+
+  // Mobile: rely on CSS for layout, just drop the shadow
   if (isMobile) {
     container.style.boxShadow = 'none';
-    container.style.border = 'none';
-    container.style.backgroundColor = 'transparent';
-    container.style.padding = '5%';
-    container.style.width = '90%';
-    container.style.margin = '0 5%';
   } else {
     container.style.boxShadow = '10px 10px 0px #000000';
-    
+
     // Only add mousemove listener if not on mobile
     document.addEventListener('mousemove', function(e) {
       const x = e.clientX;
