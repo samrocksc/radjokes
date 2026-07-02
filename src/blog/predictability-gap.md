@@ -50,7 +50,7 @@ I call this the "Fog of State." As the session goes on and the context window fi
 
 The answer isn't to jump into a purely academic, Haskell-style functional world. We just need a **"Functional-Lite"** approach. 
 
-Essentially: **(Input) $\\rightarrow$ (Logic) $\\rightarrow$ (Output)**
+Essentially: **(Input) -> (Logic) -> (Output)**
 
 If you strip away the `class` keyword and the `this` context, you collapse the reasoning surface area. The LLM no longer needs to track a lifecycle; it just needs to understand a transformation. By moving the state *out* of the logic and into the data payload, we make the code "boring." And in the world of AI-assisted development, boring is beautiful.
 
