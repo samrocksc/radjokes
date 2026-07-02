@@ -25,6 +25,14 @@ module.exports = function(eleventyConfig) {
   eleventyConfig.addFilter("removeBlogTag", function(tags) {
     return tags.filter(tag => tag !== "blog");
   });
+
+  // RFC 3339 date filter for RSS feed
+  eleventyConfig.addFilter("dateToRfc3339", function(value) {
+    if (typeof value === 'string') {
+      value = new Date(value);
+    }
+    return value.toISOString();
+  });
   
   // Configure input and output directories
   return {

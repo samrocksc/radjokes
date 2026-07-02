@@ -1,45 +1,26 @@
-const CACHE_NAME = 'radjokes-v2';
+const CACHE_NAME = 'radjokes-v3';
 
-const staticAssets = [
-  '/',
-  '/index.html',
-  '/404.html',
-  '/resume/',
-  '/blog/',
-  '/blog/about-that-interview-i-biffed/',
-  '/blog/binary-search-blindspot/',
-  '/blog/binary-search-layman/',
-  '/blog/developers-right-to-exist/',
-  '/blog/intro-to-hri/',
-  '/blog/learning-about-ciam/',
-  '/blog/post-1/',
-  '/blog/post-2/',
-  '/blog/predictability-gap/',
-  '/assets/styles.css',
-  '/assets/blog.css',
-  '/assets/homepage.js',
-  '/assets/interactive-shadow.js',
-  '/assets/prism/prism.css',
-  '/assets/prism/prism.js',
-  '/assets/favicon.svg',
-  '/assets/manifest.json',
-  '/assets/1.jpg',
-  '/assets/2.jpg',
-  '/assets/3.jpg',
-  '/assets/4.jpg',
-  '/assets/5.jpg',
-  '/assets/6.jpg',
-  '/assets/7.jpg',
-  '/assets/8.jpg',
-  '/assets/binary-search-pyramid.svg'
-];
+async function getCacheAssets() {
+  try {
+    const response = await fetch('/_data/cache.json');
+    if (!response.ok) throw new Error('Failed to load cache manifest');
+    const data = await response.json();
+    return data.assets || [];
+  } catch (error) {
+    console.error('SW cache manifest error:', error);
+    return [];
+  }
+}
+
+let staticAssets = [];
 
 // Precache known static pages + assets
 self.addEventListener('install', event => {
   event.waitUntil(
-    caches.open(CACHE_NAME)
-      .then(cache => cache.addAll(staticAssets))
-      .then(() => self.skipWaiting())
+    getCacheAssets().then(assets => {
+      staticAssets = assets;
+      return caches.open(CACHE_NAME).then(cache => cache.addAll(assets));
+    }).then(() => self.skipWaiting())
   );
 });
 
@@ -56,6 +37,10 @@ self.addEventListener('activate', event => {
   );
 });
 
+function isStaticAsset(pathname) {
+  return staticAssets.some(path => pathname === path);
+}
+
 // Network-first for pages, cache-first for static assets, fallback to 404 page
 self.addEventListener('fetch', event => {
   const { request } = event;
@@ -67,7 +52,7 @@ self.addEventListener('fetch', event => {
   }
 
   const isPage = request.mode === 'navigate' || request.destination === 'document';
-  const isStaticAsset = staticAssets.some(path => url.pathname === path);
+  const isStatic = isStaticAsset(url.pathname);
 
   if (isPage) {
     event.respondWith(
@@ -84,7 +69,7 @@ self.addEventListener('fetch', event => {
     return;
   }
 
-  if (isStaticAsset || request.destination === 'style' || request.destination === 'script' || request.destination === 'image') {
+  if (isStatic || request.destination === 'style' || request.destination === 'script' || request.destination === 'image') {
     event.respondWith(
       caches.match(request).then(cached => {
         if (cached) {

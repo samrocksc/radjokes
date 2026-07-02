@@ -1,0 +1,32 @@
+---
+permalink: /_data/cache.json
+---
+{
+  "version": "radjokes-v3",
+  "assets": [
+    "/",
+    "/index.html",
+    "/404.html",
+    "/resume/",
+    "/blog/",
+    "/feed.xml",
+    "/assets/styles.css",
+    "/assets/blog.css",
+    "/assets/homepage.js",
+    "/assets/interactive-shadow.js",
+    "/assets/prism/prism.css",
+    "/assets/prism/prism.js",
+    "/assets/favicon.svg",
+    "/assets/manifest.json",
+    "/assets/1.jpg",
+    "/assets/2.jpg",
+    "/assets/3.jpg",
+    "/assets/4.jpg",
+    "/assets/5.jpg",
+    "/assets/6.jpg",
+    "/assets/7.jpg",
+    "/assets/8.jpg",
+    "/assets/binary-search-pyramid.svg"{% for post in collections.blogPosts %},
+    "{{ post.url }}"{% endfor %}
+  ]
+}

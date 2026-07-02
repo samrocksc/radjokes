@@ -4,6 +4,17 @@
     <meta charset="utf-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>{{ title }}</title>
+    <meta name="description" content="{{ description or site.description }}">
+    <meta property="og:title" content="{{ title }}">
+    <meta property="og:description" content="{{ description or site.description }}">
+    <meta property="og:url" content="{{ site.url }}{{ page.url | url }}">
+    <meta property="og:type" content="{% if tags and 'blog' in tags %}article{% else %}website{% endif %}">
+    <meta property="og:site_name" content="{{ site.name }}">
+    {% if image %}
+    <meta property="og:image" content="{{ site.url }}{{ image | url }}">
+    {% else %}
+    <meta property="og:image" content="{{ site.url }}/assets/favicon.svg">
+    {% endif %}
     <link rel="icon" href="/assets/favicon.svg" type="image/svg+xml">
     <link rel="manifest" href="/assets/manifest.json">
     <link rel="preconnect" href="https://fonts.googleapis.com">
