@@ -42,7 +42,7 @@ When you ask an AI to modify a method in a class, it isn't just looking at a fun
 - Was the `reset()` method called before this operation?
 - If I change this property here, what side-effect is going to bite me three calls later?
 
-I call this the "Fog of State." As the session goes on and the context window fills up, the AI starts to "drift." It begins to hallucinate the state of the object, introducing bugs that are nearly impossible to spot at a glance. The AI didn't forget how to code, it just lost its place in the state machine. This isn't a failure of the model's intelligence, but a failure of the architectural surface area we're asking it to reason across.
+I call this the "Fog of State." As the session goes on and the context window fills up, the AI starts to "drift." It begins to hallucinate the state of the object, introducing bugs that are nearly impossible to spot at a glance. The AI didn't forget how to code, it just lost its place in the state machine. This isn't a failure of the model's intelligence, but a failure of the architectural surface area we're asking it to reason across. Yeah, this works for a POC, but it's not going to hold up through multiple iterations.
 
 ## The Solution: The "Functional-Lite" Guardrail
 
