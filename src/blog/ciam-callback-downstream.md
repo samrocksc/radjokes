@@ -5,8 +5,9 @@ status: considered
 target_audience: Aspiring developers, agentic coding learners, CIAM newcomers
 word_count: 950
 primary_goal: Clarify the directional flow of OAuth2/OIDC callbacks and provide a mental model for troubleshooting.
-tags: [blog, ciam, oauth2, oidc, architecture, troubleshooting]
+tags: [blog, draft, ciam, oauth2, oidc, architecture, troubleshooting]
 urls: []
+layout: blog-post.njk
 ---
 
 The Callback Paradox is a rite of passage for anyone working in Customer Identity and Access Management. It usually starts with a redirect_uri_mismatch error or the sudden realization that your application is receiving a weird string when it was expecting a clean JSON object. In the world of CIAM, the callback is the most critical and most misunderstood moment of the whole process. It is the invisible handshake where trust is transferred from one system to another.
@@ -19,7 +20,7 @@ Think of the identity flow like a grocery run. You send a request to the store, 
 
 The failure almost always happens on the return trip. The store does not just teleport the groceries into your fridge. They deliver them to a specific address, which is your callback URL. If you told the store to leave the groceries on your kitchen table, but you have since moved that table to a different room or moved to a different house entirely, the delivery driver just stands there with a bag of food and nowhere to put it.
 
-The Authorization Server does not care where you actually are. It only cares that the address on the delivery slip matches the destination it has been told to trust. This is why the redirect URI is such a common point of failure. If the registered URI doesn't match the request exactly, the AS refuses to deliver the payload for security reasons.
+The Authorization Server does not care where you actually are. It only cares that the address on the delivery slip matches the destination itL's told to trust. This is why the redirect URI is such a common point of failure. If the registered URI doesn't match the request exactly, the AS refuses to deliver the payload for security reasons.
 
 CIAM is essentially a stack of trust layers. You have the user's device handling biometrics or passwords, the Authorization Server acting as the source of truth, and the application acting as the consumer. OAuth2 and OIDC act as the normalization layer between these worlds. They translate a trust signal, like a successful password check, into a standardized token that the application can understand without ever needing to see the user's password.
 
