@@ -1,10 +1,10 @@
 ---
 title: "The CIAM Rosetta Stone: Translating the Language of Identity"
-date_created: 2026-07-06
-status: shadow
-target_audience: Developers, architects, and anyone currently staring at a 401 error with a confused expression.
+date: "2026-07-06"
+status: draft
+target_audience: "Developers, architects, and anyone currently staring at a 401 error with a confused expression."
 word_count: 600
-primary_goal: Demystify the jargon of Customer Identity and Access Management (CIAM) using plain English and a bit of salt.
+primary_goal: "Demystify the jargon of Customer Identity and Access Management (CIAM) using plain English and a bit of salt."
 tags: [blog, draft, ciam, glossary, oauth2, oidc, identity]
 urls: []
 layout: blog-post.njk

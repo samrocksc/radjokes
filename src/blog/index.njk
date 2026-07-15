@@ -10,6 +10,7 @@ permalink: /blog/
 
 <ul class="blog-list">
 {% for post in collections.blogPosts %}
+  {% if post.data.status != 'draft' %}
   <li class="blog-post-item">
     <h2><a href="{{ post.url }}">{{ post.data.title }}</a></h2>
     <p class="post-description">{{ post.data.description }}</p>
@@ -25,5 +26,6 @@ permalink: /blog/
       {% endif %}
     </div>
   </li>
+  {% endif %}
 {% endfor %}
 </ul>

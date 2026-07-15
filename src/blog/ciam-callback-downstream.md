@@ -1,10 +1,10 @@
 ---
-title: The Invisible Handshake: Understanding Callbacks in CIAM
-date_created: 2026-07-02
-status: shadow
-target_audience: Aspiring developers, agentic coding learners, CIAM newcomers
+title: "The Invisible Handshake: Understanding Callbacks in CIAM"
+date: "2026-07-02"
+status: draft
+target_audience: "Aspiring developers, agentic coding learners, CIAM newcomers"
 word_count: 950
-primary_goal: Clarify the directional flow of OAuth2/OIDC callbacks and provide a mental model for troubleshooting.
+primary_goal: "Clarify the directional flow of OAuth2/OIDC callbacks and provide a mental model for troubleshooting."
 tags: [blog, draft, ciam, oauth2, oidc, architecture, troubleshooting]
 urls: []
 layout: blog-post.njk
