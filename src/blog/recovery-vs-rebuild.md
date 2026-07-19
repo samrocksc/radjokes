@@ -9,7 +9,7 @@ tags: [blog, draft, disaster-recovery, architecture, engineering]
 layout: blog-post.njk
 ---
 
-Six months into building a disaster recovery pipeline for a 90,000-user Okta tenant, I realized we had been asking the wrong question.
+Six months into building a disaster recovery pipeline for a 90,000-user identity tenant, I realized we had been asking the wrong question.
 
 We were building backups. We were testing exports. We were documenting restore procedures. But we had never stopped to ask: can we actually recover, or can we only rebuild?
 
@@ -17,7 +17,7 @@ We were building backups. We were testing exports. We were documenting restore p
 Recovery means byte-for-byte restore. Same IDs, same hashes, same secrets. Rebuild means recreate from backup. New IDs, new everything. They are not the same thing.
 </div>
 
-The distinction matters because Okta does not support native recovery. There is no snapshot button. There is no point-in-time restore. If your tenant is compromised, you are not recovering it. You are rebuilding it from whatever data you managed to export.
+The distinction matters because the platform did not support native recovery. There was no snapshot button. There was no point-in-time restore. If your tenant is compromised, you are not recovering it. You are rebuilding it from whatever data you managed to export.
 
 This changes everything about how you plan. A recovery strategy assumes you can pick up where you left off. A rebuild strategy assumes you are starting from scratch with a pile of reference data. The passwords are gone. The MFA enrollments are gone. The SAML metadata needs to be re-exchanged with every federated partner.
 

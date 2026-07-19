@@ -1,3 +1,6 @@
+const markdownIt = require("markdown-it");
+const markdownItAnchor = require("markdown-it-anchor");
+
 module.exports = function(eleventyConfig) {
   // Pass through static assets
   eleventyConfig.addPassthroughCopy("src/assets/");
@@ -33,6 +36,17 @@ module.exports = function(eleventyConfig) {
     }
     return value.toISOString();
   });
+
+  // Configure markdown-it with anchor links on headings
+  const md = markdownIt({ html: true, linkify: true, typographer: true })
+    .use(markdownItAnchor, {
+      permalink: markdownItAnchor.permalink.linkInsideHeader({
+        symbol: "#",
+        placement: "before"
+      }),
+      level: [2, 3]
+    });
+  eleventyConfig.setLibrary("md", md);
   
   // Configure input and output directories
   return {

@@ -20,5 +20,8 @@
   "bugs": {
     "url": "https://github.com/samrocksc/radjokes/issues"
   },
-  "homepage": "https://github.com/samrocksc/radjokes#readme"
+  "homepage": "https://github.com/samrocksc/radjokes#readme",
+  "dependencies": {
+    "markdown-it-anchor": "^9.2.1"
+  }
 }
