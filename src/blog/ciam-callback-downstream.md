@@ -30,7 +30,7 @@ I remember wiring up my first OAuth2 app years ago. I had everything configured.
 
 ## Section 2: The Downstream Flow
 
-In a standard OAuth2 flow, the request moves from the Client (your app) to the **Authorization Server** (often called the AS — the central system that verifies identities and issues tokens). The AS performs the heavy lifting — verifying the user's identity and permissions — and then generates a set of credentials.
+In a standard OAuth2 flow, the request moves from the Client (your app) to the **Authorization Server** (often called the AS, the central system that verifies identities and issues tokens). The AS performs the heavy lifting — verifying the user's identity and permissions — and then generates a set of credentials.
 
 The failure almost always happens on the return trip. The AS does not push data directly into your application's internal state. Instead, it redirects the user's browser to a specific, pre-registered address: your callback URL. This is the "downstream" delivery. If the address you provided in the request does not match the registered URI exactly, the AS will refuse to deliver the payload for security reasons. This is the root of the dreaded `redirect_uri_mismatch`.
 
