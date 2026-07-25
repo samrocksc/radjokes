@@ -5,7 +5,13 @@ status: published
 target_audience: "Developers, CIAM architects, engineers troubleshooting identity flows"
 word_count: 631
 primary_goal: "Explain the directional flow of callbacks and illustrate the common failure point where the wrong entity is used as the callback destination in federated identity."
-tags: [blog, ciam, oauth2, oidc, architecture, troubleshooting]
+tags: 
+  - blog
+  - ciam
+  - oauth2
+  - oidc
+  - architecture
+  - troubleshooting
 urls: []
 layout: blog-post.njk
 ---
