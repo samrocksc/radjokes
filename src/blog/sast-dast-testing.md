@@ -16,6 +16,12 @@ I recently decided to kind of switch up and diversify my career.  Starting at [D
 
 Security scanning is one of those things that feels like it should be simple. You run a tool, it finds the holes, you patch them. Reality is a bit more of a mess.
 
+Enter our two primary pillars of security scanning, and their terrible acronyms:
+
+## SAST (Static Application Security Testing)
+
+## DAST (Dynamic Application Security Testing)
+
 <div class="callout">
   Remember that each is a security scan, but each takes place in different phases of the Software Development Lifecycle.  One when code is static(pre-deployment), and one after once we are deployed.
 </div>
