@@ -1,6 +1,6 @@
 ---
 title: "The Invisible Handshake: Troubleshooting the CIAM Callback"
-date: "2026-07-02"
+date: "2026-07-25"
 status: published
 target_audience: "Developers, CIAM architects, engineers troubleshooting identity flows"
 word_count: 631

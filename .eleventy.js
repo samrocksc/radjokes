@@ -40,10 +40,7 @@ module.exports = function(eleventyConfig) {
   // Configure markdown-it with anchor links on headings
   const md = markdownIt({ html: true, linkify: true, typographer: true })
     .use(markdownItAnchor, {
-      permalink: markdownItAnchor.permalink.linkInsideHeader({
-        symbol: "#",
-        placement: "before"
-      }),
+      permalink: markdownItAnchor.permalink.headerLink(),
       level: [2, 3]
     });
   eleventyConfig.setLibrary("md", md);
