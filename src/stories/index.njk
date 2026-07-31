@@ -1,0 +1,21 @@
+---
+layout: layout.njk
+title: Stories
+permalink: /stories/
+---
+
+<a href="/" class="back-link">← back</a>
+
+<h1 class="stories-header">Junkland</h1>
+
+<ul class="stories-list">
+{% for story in collections.stories %}
+  <li class="story-item">
+    <h2><a href="{{ story.url }}">{{ story.data.title }}</a></h2>
+    <p class="story-description">{{ story.data.description }}</p>
+    <div class="story-meta">
+      <span class="story-date">{{ story.date | date }}</span>
+    </div>
+  </li>
+{% endfor %}
+</ul>

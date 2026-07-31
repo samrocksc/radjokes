@@ -10,6 +10,11 @@ module.exports = function(eleventyConfig) {
   eleventyConfig.addCollection("blogPosts", function(collectionApi) {
     return collectionApi.getFilteredByTag("blog").reverse();
   });
+
+  // Create a collection for stories
+  eleventyConfig.addCollection("stories", function(collectionApi) {
+    return collectionApi.getFilteredByTag("stories").reverse();
+  });
   
   // Add a date filter
   eleventyConfig.addFilter("date", function(value) {
