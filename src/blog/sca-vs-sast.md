@@ -1,5 +1,5 @@
 ---
-title: "SCA and SAST: Easily Confused, Easily Mitigated"
+title: "SCA vs. SAST: Understanding the differences"
 date: "2026-07-31"
 author: "Sammy C."
 description: "Application security is drowning in three-letter acronyms. Two of the most-confused, SAST and SCA, actually solve different problems. Here's how to tell them apart."
