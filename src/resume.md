@@ -136,7 +136,9 @@ Dedicated to the fine arts of artisanal SQL, serverless, supply chain, and horri
 - General API design(REST)
 - Github Teamwork, Agile Development, Pivotal Tracker
 - Databases of almost any SQL origin, levelDB, several flat file systems
-- Javascript - Node.js, React, Flux Methodologies, JQuery, The DOM in general
+- Modern JS Stack - Node.js, TypeScript, React, jQuery
+- Go
+- Python
 
 ## Qualifications & Education
 
