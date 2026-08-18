@@ -142,3 +142,14 @@ Dedicated to the fine arts of artisanal SQL, serverless, supply chain, and horri
 
 - Associates Degree, Social Work, 3.85 GPA, Phoenix College, Graduated December, 2012
 - American Heart CPR
+
+## Certifications
+
+| **Badge Name** | **Issuer** | **Issued** | **Link** |
+|----------------|------------|------------|----------|
+| Auth0 Customer Identity Presales Accreditation | Okta Elevate | 2026-08-13 | [View](https://www.credly.com/org/okta-elevate/badge/auth0-customer-identity-presales-accreditation) |
+| Authenticate Users | Okta | 2026-08-10 | [View](https://www.credly.com/org/okta/badge/authenticate-users) |
+| Manage Auth0 Users | Okta | 2026-08-10 | [View](https://www.credly.com/org/okta/badge/manage-auth0-users) |
+| Get Started with Auth0 Tenants | Okta | 2026-08-04 | [View](https://www.credly.com/org/okta/badge/get-started-with-auth0-tenants) |
+| Auth0 Customer Identity Sales Accreditation | Okta Elevate | 2026-07-28 | [View](https://www.credly.com/org/okta-elevate/badge/auth0-customer-identity-sales-accreditation) |
+| Secure AI Agent Interactions with Auth for MCP | Okta | 2026-07-28 | [View](https://www.credly.com/org/okta/badge/secure-ai-agent-interactions-with-auth-for-mcp) |
