@@ -14,7 +14,7 @@ _Do you think my resume sucks, and have worked with me? [Submit a PR](https://gi
 
 ## Summary
 
-Dedicated to the fine arts of artisanal SQL, serverless, supply chain, and horrible hackery.
+Dedicated to the fine arts of artisanal SQL, serverless, supply chain, and horrible hackery. I have pushed production code, and written infrastructure as code with all three major cloud distributors. I am a versatile developer who knows how to not just create applications, but engineer them.
 
 ## Professional Experience
 
