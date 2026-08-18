@@ -145,7 +145,14 @@ Dedicated to the fine arts of artisanal SQL, serverless, supply chain, and horri
 
 ## Certifications
 
-| **Badge Name** | **Issuer** | **Issued** | **Link** |
+| Badge | Issuer | Issued | Link |
+|-------|--------|--------|------|
+| [Auth0 Customer Identity Presales Accreditation](https://www.credly.com/org/okta-elevate/badge/auth0-customer-identity-presales-accreditation) | Okta Elevate | 2026-08-13 | [View](https://www.credly.com/org/okta-elevate/badge/auth0-customer-identity-presales-accreditation) |
+| [Authenticate Users](https://www.credly.com/org/okta/badge/authenticate-users) | Okta | 2026-08-10 | [View](https://www.credly.com/org/okta/badge/authenticate-users) |
+| [Manage Auth0 Users](https://www.credly.com/org/okta/badge/manage-auth0-users) | Okta | 2026-08-10 | [View](https://www.credly.com/org/okta/badge/manage-auth0-users) |
+| [Get Started with Auth0 Tenants](https://www.credly.com/org/okta/badge/get-started-with-auth0-tenants) | Okta | 2026-08-04 | [View](https://www.credly.com/org/okta/badge/get-started-with-auth0-tenants) |
+| [Auth0 Customer Identity Sales Accreditation](https://www.credly.com/org/okta-elevate/badge/auth0-customer-identity-sales-accreditation) | Okta Elevate | 2026-07-28 | [View](https://www.credly.com/org/okta-elevate/badge/auth0-customer-identity-sales-accreditation) |
+| [Secure AI Agent Interactions with Auth for MCP](https://www.credly.com/org/okta/badge/secure-ai-agent-interactions-with-auth-for-mcp) | Okta | 2026-07-28 | [View](https://www.credly.com/org/okta/badge/secure-ai-agent-interactions-with-auth-for-mcp) |
 |----------------|------------|------------|----------|
 | Auth0 Customer Identity Presales Accreditation | Okta Elevate | 2026-08-13 | [View](https://www.credly.com/org/okta-elevate/badge/auth0-customer-identity-presales-accreditation) |
 | Authenticate Users | Okta | 2026-08-10 | [View](https://www.credly.com/org/okta/badge/authenticate-users) |
