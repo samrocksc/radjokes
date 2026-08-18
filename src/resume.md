@@ -147,6 +147,7 @@ Dedicated to the fine arts of artisanal SQL, serverless, supply chain, and horri
 
 | Certification | Issuer | Issued | Link |
 |---------------|--------|--------|------|
+| [Snyk Implementation Pro](https://www.credly.com/org/snyk/badge/implementation-pro) | Snyk | 2026-07 | [View](https://www.credly.com/org/snyk/badge/implementation-pro) |
 | [Auth0 Customer Identity Presales Accreditation](https://www.credly.com/org/okta-elevate/badge/auth0-customer-identity-presales-accreditation) | Okta Elevate | 2026-08-13 | [View](https://www.credly.com/org/okta-elevate/badge/auth0-customer-identity-presales-accreditation) |
 | [Authenticate Users](https://www.credly.com/org/okta/badge/authenticate-users) | Okta | 2026-08-10 | [View](https://www.credly.com/org/okta/badge/authenticate-users) |
 | [Manage Auth0 Users](https://www.credly.com/org/okta/badge/manage-auth0-users) | Okta | 2026-08-10 | [View](https://www.credly.com/org/okta/badge/manage-auth0-users) |
