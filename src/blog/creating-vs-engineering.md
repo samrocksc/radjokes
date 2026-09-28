@@ -3,6 +3,7 @@ title: "Creating vs. Engineering: The State Tax and the Production Gap"
 date: "2026-08-18"
 author: "Sammy C."
 description: "Define the 'Production Gap' between vibe-coded creations and engineered systems."
+status: published
 tags: 
   - blog
   - engineering
