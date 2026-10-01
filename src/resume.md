@@ -149,10 +149,19 @@ Dedicated to the fine arts of artisanal SQL, serverless, supply chain, and horri
 
 | Certification | Issuer | Issued | Link |
 |---------------|--------|--------|------|
-| [Snyk Implementation Pro](https://www.credly.com/org/snyk/badge/implementation-pro) | Snyk | July 2026 | [View](https://www.credly.com/org/snyk/badge/implementation-pro) |
+| Snyk Implementation Pro | Snyk Academy | Jul 2026 | — |
 | [Auth0 Customer Identity Presales Accreditation](https://www.credly.com/org/okta-elevate/badge/auth0-customer-identity-presales-accreditation) | Okta Elevate | Aug 2026 | [View](https://www.credly.com/org/okta-elevate/badge/auth0-customer-identity-presales-accreditation) |
 | [Authenticate Users](https://www.credly.com/org/okta/badge/authenticate-users) | Okta | Aug 2026 | [View](https://www.credly.com/org/okta/badge/authenticate-users) |
 | [Manage Auth0 Users](https://www.credly.com/org/okta/badge/manage-auth0-users) | Okta | Aug 2026 | [View](https://www.credly.com/org/okta/badge/manage-auth0-users) |
 | [Get Started with Auth0 Tenants](https://www.credly.com/org/okta/badge/get-started-with-auth0-tenants) | Okta | Aug 2026 | [View](https://www.credly.com/org/okta/badge/get-started-with-auth0-tenants) |
-| [Auth0 Customer Identity Sales Accreditation](https://www.credly.com/org/okta-elevate/badge/auth0-customer-identity-sales-accreditation) | Okta Elevate | July 2026 | [View](https://www.credly.com/org/okta-elevate/badge/auth0-customer-identity-sales-accreditation) |
-| [Secure AI Agent Interactions with Auth for MCP](https://www.credly.com/org/okta/badge/secure-ai-agent-interactions-with-auth-for-mcp) | Okta | July 2026 | [View](https://www.credly.com/org/okta/badge/secure-ai-agent-interactions-with-auth-for-mcp) |
+| [Auth0 Customer Identity Sales Accreditation](https://www.credly.com/org/okta-elevate/badge/auth0-customer-identity-sales-accreditation) | Okta Elevate | Jul 2026 | [View](https://www.credly.com/org/okta-elevate/badge/auth0-customer-identity-sales-accreditation) |
+| [Secure AI Agent Interactions with Auth for MCP](https://www.credly.com/org/okta/badge/secure-ai-agent-interactions-with-auth-for-mcp) | Okta | Jul 2026 | [View](https://www.credly.com/org/okta/badge/secure-ai-agent-interactions-with-auth-for-mcp) |
+| [Authenticate with Auth0 Social and Enterprise Connections](https://www.credly.com/org/okta/badge/authenticate-with-auth0-social-and-enterprise-conne) | Okta | Aug 2026 | [View](https://www.credly.com/org/okta/badge/authenticate-with-auth0-social-and-enterprise-conne) |
+| [Customize Auth0 Universal Login](https://www.credly.com/org/okta/badge/customize-auth0-universal-login) | Okta | Aug 2026 | [View](https://www.credly.com/org/okta/badge/customize-auth0-universal-login) |
+| [Discover the Differences Among Auth0 Application Types](https://www.credly.com/org/okta/badge/discover-the-differences-among-auth0-application-ty) | Okta | Aug 2026 | [View](https://www.credly.com/org/okta/badge/discover-the-differences-among-auth0-application-ty) |
+| [Authenticate with Auth0 Database and Passwordless Connections](https://www.credly.com/org/okta/badge/authenticate-with-auth0-database-and-passwordless-c) | Okta | Aug 2026 | [View](https://www.credly.com/org/okta/badge/authenticate-with-auth0-database-and-passwordless-c) |
+| [Define a Secure Policy Structure](https://www.credly.com/org/okta/badge/define-a-secure-policy-structure) | Okta | Aug 2026 | [View](https://www.credly.com/org/okta/badge/define-a-secure-policy-structure) |
+| [Extend Auth0 with Actions](https://www.credly.com/org/okta/badge/extend-auth0-with-actions) | Okta | Sep 2026 | [View](https://www.credly.com/org/okta/badge/extend-auth0-with-actions) |
+| [Protect Your API Endpoints with Auth0](https://www.credly.com/org/okta/badge/protect-your-api-endpoints-with-auth0) | Okta | Sep 2026 | [View](https://www.credly.com/org/okta/badge/protect-your-api-endpoints-with-auth0) |
+| [Extend Auth0 Identity Flows with Forms](https://www.credly.com/org/okta/badge/extend-auth0-identity-flows-with-forms) | Okta | Sep 2026 | [View](https://www.credly.com/org/okta/badge/extend-auth0-identity-flows-with-forms) |
+| [Secure Auth0 Apps with MFA](https://www.credly.com/org/okta/badge/secure-auth0-apps-with-mfa) | Okta | Sep 2026 | [View](https://www.credly.com/org/okta/badge/secure-auth0-apps-with-mfa) |

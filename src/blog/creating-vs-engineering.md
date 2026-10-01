@@ -1,5 +1,5 @@
 ---
-title: "Creating vs. Engineering: The State Tax and the Production Gap"
+title: "Creating vs. Engineering: The Emotional Tax of AI"
 date: "2026-08-18"
 author: "Sammy C."
 description: "Define the 'Production Gap' between vibe-coded creations and engineered systems."
