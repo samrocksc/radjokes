@@ -11,9 +11,9 @@ layout: blog-post.njk
 ---
 
 
-I want to preface this post by saying I self-identify as a jack of all trades, master of none. I've been writing code for fun, or for profit for almost 30 years at this point. I've always prided myself on being able to know a little bit about everything. With the advent of LLM's though I think the ability to be a jack of all trades is actually implicit to having a web browser.....so with that I'm beginning to employee different specializations in our field.
+I want to preface this post by saying I self-identify as a jack of all trades, master of none. I've been writing code for fun, or for profit for almost 30 years at this point. I've always prided myself on being able to know a little bit about everything. With the advent of LLM's though I think the ability to be a jack of all trades is actually implicit to having a web browser.....so with that I'm beginning to employ different specializations in our field.
 
-Specialization is going to be crucial to our future as software engineers. It's pretty easy to assume that in the future somewhat mundane tasks like setting up routes, or simple three tier architectures will probably be pretty homogenous. Recently, I've learned about the field of **CIAM**. It stands for Customer Identity and Access Management. Which ultimately. This a fancy way of saying "how do we manage our customers' identities and access to our services".
+Specialization is going to be crucial to our future as software engineers. It's pretty easy to assume that in the future somewhat mundane tasks like setting up routes, or simple three tier architectures will probably be pretty homogenous. Recently, I've learned about the field of **CIAM**. It stands for Customer Identity and Access Management. Which, ultimately, is a fancy way of saying "how do we manage our customers' identities and access to our services".
 
 CIAM is a subset of the broader field of Identity and Access Management (IAM), which typically focuses on managing the identities and access of employees within an organization. Honestly, I had never really thought about any of the key differences between customer and employee identity management until I started learning about CIAM.
 
@@ -35,7 +35,7 @@ We make the rules in IAM, but in CIAM, the customer makes the rules, and they vo
 
 ## User Experience
 
-I'm a former small business owner, and I understand the importance of first impressions. CIAM isn't just about protection, it's also about _consumer confidence_ in your product. Can you transition a customer from wanting to buy something to buying something seemlessly? If we were to over complicate this process, we risk the customer giving up and going to give their duckets to Jeff Bezos. If we do it well, we build a loyal customer base.
+I'm a former small business owner, and I understand the importance of first impressions. CIAM isn't just about protection, it's also about _consumer confidence_ in your product. Can you transition a customer from wanting to buy something to buying something seamlessly? If we were to over complicate this process, we risk the customer giving up and going to give their duckets to Jeff Bezos. If we do it well, we build a loyal customer base.
 
 From what I've learned though so far about the industry, it's often specifically focused around reactivity instead of proactive implementation. This means that being a CIAM engineer is a bit of a specialized role that requires a deep understanding of both identity management and customer experience. Even the most ardent of AI enthusiasts will have to admit that this is a field that requires a human touch, and that it's probably not best served by a generalized AI model.
 

@@ -12,7 +12,7 @@ tags:
 layout: blog-post.njk
 ---
 
-I recently decided to kind of switch up and diversify my career.  Starting at [Distology](https://distology.com) as a CIAM Engineer has been eye opening.  It's also been incredibly fun.  I want to share with ya'll some things I get to learn on my career path. Today's topic is Security Testing.  I've been working on my Snyk Certifications for an implementation pro, and it's been so much fun.
+I recently decided to kind of switch up and diversify my career.  Starting at [Distology](https://distology.com) as a CIAM Engineer has been eye opening.  It's also been incredibly fun.  I want to share with y'all some things I get to learn on my career path. Today's topic is Security Testing.  I've been working on my Snyk Certifications for an implementation pro, and it's been so much fun.
 
 Security scanning is one of those things that feels like it should be simple. You run a tool, it finds the holes, you patch them. Reality is a bit more of a mess.
 

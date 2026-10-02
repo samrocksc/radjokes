@@ -17,4 +17,4 @@ One persistent frustration is the high cost of many job-search tools, most of wh
 The app stores recordings locally in IndexedDB, eliminating any cloud dependency. I can record myself, review the playback with a timer, and track my answer quality over time. The result is a simple, cost-free solution that helps me refine interview performance.
 
 If you're looking for an inexpensive way to practice and evaluate your interview answers, feel free to try the tool here: <https://look.imwithstupid.fun>.
-</div>
+</div>>
