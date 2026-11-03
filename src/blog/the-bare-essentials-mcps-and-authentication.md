@@ -1,5 +1,5 @@
 ---
-title: "An MCP server, a login wall, and Luke Skywalker"
+title: "The Bare Essentials: MCPs and Authentication"
 date: "2026-11-02"
 author: "Sammy C."
 description: "Building a Star Wars MCP server and layering security on it rung by rung: how an MCP is made, then authentication with Auth0 and PKCE."
