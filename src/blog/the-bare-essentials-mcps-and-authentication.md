@@ -1,6 +1,6 @@
 ---
 title: "The Bare Essentials: MCPs and Authentication"
-date: "2026-11-02"
+date: "2026-10-28"
 author: "Sammy C."
 description: "Building a Star Wars MCP server and layering security on it rung by rung: how an MCP is made, then authentication with Auth0 and PKCE."
 status: published
