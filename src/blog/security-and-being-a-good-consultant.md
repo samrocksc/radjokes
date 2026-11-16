@@ -4,7 +4,7 @@ date: "2026-11-05"
 author: "Sammy C."
 description: "A bad first impression of security professionals followed me for decades. A consultant who started with the OWASP Top 10 and gentle questions changed that, and the lessons transfer to every seat in the SDLC."
 status: published
-tags: 
+tags:
   - blog
   - security
   - consulting
@@ -12,8 +12,6 @@ layout: blog-post.njk
 ---
 
 Security can be confusing, and often times it's actually purposely built to be confusing. An industry doesn't endorse "obfuscation of code" for no reason... right?
-
-How we learn things can be a hell of a process. I'm taking a German A2.1 class right now, seven years into living in Germany, and I'm the slowest one in the room.
 
 I remember when I first started going to Node.js meetups back in 2011/2012, everything was NEW and EXCITING. There was all this cool stuff like CoffeeScript coming out. The infinite possibilities that Node offered for one single language across the back and frontend. This was a period when the frontier was writing helper modules for an ecosystem no one had any interest in. API surfaces were being formed, and norms solidified that would shape the future of software development.
 
@@ -67,5 +65,6 @@ Try and make these your go to funnels for improving your posturing when you are 
 No one wants to deal with a security breach. It's exhausting and frustrating. The best advice I got was also the simplest: read the OWASP Top 10. At least once a month. Do that, and you're already 80% of the way there. The last 20% is just deciding where to put the layers.
 
 ## Citations & References
+
 - [OWASP Top 10 2025](https://top10.owasp.org/2025/) - relevant still in the end of 2026... almost every breach has been preventable from this list. You can research almost every concept mentioned in this post there.
 - [Software Bill of Materials](https://www.ibm.com/de-de/think/topics/sbom) - this explanation from IBM is really good, and I strongly recommend it.

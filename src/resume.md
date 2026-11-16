@@ -27,7 +27,7 @@ Dedicated to the fine arts of artisanal SQL, serverless, supply chain, and horri
 
 **Wunderflats**
 
-- Technical Team Lead | October 2023 - August 2025
+- Technical Team Lead | October 2023 - October 2025
   - Line Management for 5 direct reports and a team of 8 members in a cross functional team
   - Implemented features with team to increase company revenue considerably
   - Implemented payment automation systems to help improve the customer Experience
@@ -35,7 +35,7 @@ Dedicated to the fine arts of artisanal SQL, serverless, supply chain, and horri
 
 **Enpal**
 
-- Senior Software Engineer | March 2023 - August 2023
+- Senior Software Engineer | March 2023 - October 2023
   - Software Development & Architecture
   - Actively assist and promote RFC architecture ranging from trie data structure refactoring to Event-Driven Architecture implementation
   - Build/Implement REST architecture and create fallback pages for Global Expansion internationalization surveys
