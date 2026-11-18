@@ -80,6 +80,48 @@ h2 {
   color: #000000;
 }
 
+/* Pull quoted prompts out of the surrounding prose */
+.blog-content blockquote {
+  position: relative;
+  margin: 2em 0;
+  padding: 1.25em 1.5em 1.25em 2.75em;
+  border-left: 4px solid #000000;
+  background-color: #f5f5f5;
+  font-style: italic;
+  color: #222222;
+}
+
+.blog-content blockquote::before {
+  content: "\201C";
+  position: absolute;
+  top: -0.1em;
+  left: 0.2em;
+  font-family: 'Space Mono', monospace;
+  font-size: 3.5em;
+  line-height: 1;
+  color: #000000;
+  opacity: 0.2;
+  pointer-events: none;
+}
+
+.blog-content blockquote p {
+  margin: 0;
+}
+
+.blog-content blockquote p + p {
+  margin-top: 0.75em;
+}
+
+@media only screen and (max-width: 768px) {
+  .blog-content blockquote {
+    padding: 1em 1em 1em 2.25em;
+  }
+
+  .blog-content blockquote::before {
+    font-size: 2.75em;
+  }
+}
+
 /* Link styling for blog content */
 .blog-content a {
   color: #000000;
